@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+这里是张子涵，XMU WISE IUEC本科三年级学生。
+这个网站搭建于2019年3月22日，目前主要用于计量学习、提交作业，以及记录一些生长时刻。
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+这是一个不断探索的过程，我会逐步学习，更新它。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+Data Science Analysis的作业和笔记将被上传至个人主页上: [MyGithub](https://landbuland.github.io/)
+
+除此以外，我将逐步上传一些曾经参与的project [Projects](https://landbuland.github.io/projects/)

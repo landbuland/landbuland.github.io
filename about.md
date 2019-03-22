@@ -12,4 +12,4 @@ permalink: /about/
 
 Data Science Analysis的作业和笔记将被上传至个人主页上: [MyGithub](https://landbuland.github.io/)
 
-除此以外，我将逐步上传一些曾经参与的project [Projects](https://landbuland.github.io/projects/)
+除此以外，我将逐步上传一些曾经参与的 [Projects](https://landbuland.github.io/projects/)

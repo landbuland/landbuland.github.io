@@ -1,30 +1,17 @@
 [
 	{
-		"name": "Cool project 1",
-		"image": "placeholder.jpg",
+		"name": "What Affects the Passenger Flow of Beijing Subway",
+		"image": "bjsubway.png",
 		"url": "#",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"date": "July 2017",
+		"tags": ["Mathmetical Statistics","MATLAB","Primary"]
 	},
 	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Android","PHP"]
-	},
-	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
+		"name": "A Game Theoretical Analysis of Optimal Offensive Strategy in Basketball",
+		"image": "basketball.jpg",
+		"url": "#"
+		"date": "Jan 2019",
+		"tags": ["Game Theory","R","STATA","Primary"]
 	}
 
 ]

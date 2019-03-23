@@ -17,18 +17,23 @@
   },
   {
     "text": "Resume",
-    "url": "/#",
+    "url": "/resume/",
     "icon": "fa-graduation-cap",
   },
   {
     "text": "Github",
-    "url": "/#",
+    "url": "https://github.com/landbuland/",
     "icon": "fa-github"
+  },
+  {
+    "text": "Test",
+    "url": "https://mp.weixin.qq.com/s/vjK4k7WfqnAkIMGxn3j4kg",
+    "icon": "fa-github",
   },
   {
     "text": "XML Feed",
     "url": "/feed.xml",
     "icon": "fa-feed",
     "target": _blank
-  }
+  },
 ]

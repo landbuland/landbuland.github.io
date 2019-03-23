@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: A Game Theoretical Analysis of Optimal Offensive Strategy in Basketball
 permalink: /projects/MSNE/
 ---

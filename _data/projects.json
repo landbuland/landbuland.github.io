@@ -12,6 +12,13 @@
 		"url": "/projects/MSNE/",
 		"date": "Jan 2019",
 		"tags": ["Game Theory","R","STATA","Primary"]
+	},
+	{
+		"name": "Notes on Data Science",
+		"image": "basketball.jpg",
+		"url": "/projects/DSE/",
+		"date": "Mar 2019",
+		"tags": ["Data Science","R","STATA","Matlab","Primary"]
 	}
 
 ]

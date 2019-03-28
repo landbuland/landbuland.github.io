@@ -20,7 +20,7 @@ the team's actual performance in NBA 2016-2017 regular season and try to provide
 some potential interpretations.
 
 ## Keywords:
-### Game Theory, Optimal strategy, Mixed Strategy
+##### Game Theory, Optimal strategy, Mixed Strategy
 
 ## Future Improvements
 First, we would like to carry out some rubustness test to check out our results. Similarily, some other dataset have been considered to be applied for the same reasons.

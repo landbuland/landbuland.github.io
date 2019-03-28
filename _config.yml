@@ -3,12 +3,12 @@ description: My Personal Blog
 author: 张子涵
 logo: /landbuland.github.io/static/img/page.png
 github: https://github.com/landbuland
-about: 因为我们相信人性的温暖永远不会消失
+about: Struggle for a better future.
 
 baseurl: ""
 url: ""
 
-allowsearch: false
+allowsearch: true
 
 disqus_shortname: aboutashu
 #google_analytics: UA-72862926-1

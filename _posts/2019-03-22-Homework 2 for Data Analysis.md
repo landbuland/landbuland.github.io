@@ -6,3 +6,5 @@ categories: Moments
 ---
 
 # Title
+
+$x=\hat{\theta}$

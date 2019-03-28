@@ -7,4 +7,10 @@ categories: Moments
 
 # Title
 
-$$x=\hat{\theta}$$
+$$
+\begin{align}
+
+x=\hat{\theta}
+
+\end{align}
+$$

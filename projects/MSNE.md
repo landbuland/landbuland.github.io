@@ -7,9 +7,9 @@ permalink: /projects/MSNE/
 # A Game Theoretical Analysis of Optimal Offensive Strategy in Basketball
 <center>
 Cooperate with Ruifeng Li and Mingyang Yan, guided by professor Yun Wang.
-<\center>
+</center>
  
-![Basketball](\static\projects\basketball.jpg)
+![Basketball](/static/projects/basketball.jpg)
  
 ## Abstract
 Game Theory could be applied in Basketball playing in terms of selecting the

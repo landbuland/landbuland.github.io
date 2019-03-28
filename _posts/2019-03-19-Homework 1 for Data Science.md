@@ -7,7 +7,7 @@ categories: Moments
 
 
 
-## Abstruct
+## Abstract
 In this note, I would like to have a basic overview about the Naïve Bayes Classifier, which is a useful and fundamental probabilistic model in machine learning, as well as its principle in need and realization with R.
 
 Homework1[Click here]({{site.baseurl}}/assets/HW1_zzh.pdf)

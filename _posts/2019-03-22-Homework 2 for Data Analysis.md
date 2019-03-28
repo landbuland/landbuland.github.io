@@ -7,4 +7,4 @@ categories: Moments
 
 # Title
 
-$x=\hat{\theta}$
+$$x=\hat{\theta}$$

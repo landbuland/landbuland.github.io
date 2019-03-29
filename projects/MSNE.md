@@ -9,7 +9,9 @@ permalink: /projects/MSNE/
 Cooperate with Ruifeng Li and Mingyang Yan, guided by professor Yun Wang.
 
  
-![Basketball](/static/projects/basketball.jpg/300/300)
+<div class=“picture-area”>
+    <div class=“picture” style=“background-image: url(‘\static\projects\basketball.jpg’)”></div>
+</div>
 </center>
 
 ## Abstract

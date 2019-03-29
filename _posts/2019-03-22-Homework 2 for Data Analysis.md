@@ -8,10 +8,4 @@ categories: Moments
 # Title
 
 ## This is a test.
-$$
-\begin{align}
-
-x=\hat{\theta}
-
-\end{align}
-$$
+$$ x=\hat{\theta} $$

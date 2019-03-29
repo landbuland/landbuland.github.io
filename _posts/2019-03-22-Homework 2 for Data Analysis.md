@@ -30,5 +30,6 @@ $$
 \widehat{SE_N}= \sqrt{\frac{\sum_{i=1}^N  [\widehat{\theta^*(i)}-\widehat{ \theta^*(\bullet)})]^2}{N-1}}
 \end{align}
 $$
+
 where $$\theta^*(\bullet)=\frac{1}{N} \sum_{i=1}^N \theta^*(i)$$. 
 ----

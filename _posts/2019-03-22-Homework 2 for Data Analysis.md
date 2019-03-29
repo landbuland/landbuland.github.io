@@ -33,6 +33,8 @@ $$
 
 where $$\theta^*(\bullet)=\frac{1}{N} \sum_{i=1}^N \theta^*(i)$$. 
 
+----
+
 ## Translate the code into MATLAB language
 
 The instructor provides a method of realization of the Bootstrap in R, here I would like to make it available in MATLAB.
@@ -67,7 +69,9 @@ sd = std(A)
     end
 end
 ```
+\\
 Also, we can realize it without matlab functions.
+\\
 
 ```MATLAB
 clear

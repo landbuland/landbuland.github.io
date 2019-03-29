@@ -5,11 +5,10 @@ permalink: /projects/DSE/
 ---
 ![](/static/projects/bjsubway.jpg)
 
-<center>
+
 # Lists of my notes on Microeconometrics
 
 Author: Zihan Zhang
-</center>
 
 These notes contains theroetical reports, real analysis and code translations. 
 

@@ -32,4 +32,5 @@ $$
 $$
 
 where $$\theta^*(\bullet)=\frac{1}{N} \sum_{i=1}^N \theta^*(i)$$. 
+
 ----

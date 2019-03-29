@@ -10,7 +10,7 @@ permalink: /projects/DSE/
 
 Author: Zihan Zhang
 
-These notes contains theroetical reports, real analysis and code translations. 
+These notes contain theroetical reports, real analysis and code translations. 
 
 ### Note 1 (topic: Foundation )
 A theoretical report on the Naive Bayes Classifier and its R realization.

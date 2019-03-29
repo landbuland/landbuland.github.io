@@ -15,7 +15,7 @@ Author: Zihan Zhang
 Bootstrap is a simple method used to estimate the standard error of an unknown population with only a sample. In this note, I would like to write an brief introduction about the Bootstrap as well as its realization with some other softwares except for R.
 
 ----
-### Nonparametric Bootstrap
+## Nonparametric Bootstrap
 Bootstrap, firstly introduced in 1979, provides a relatively simple way to calculate the standard error of the estimator just based on the sample we known. Actually, Bootstrap that we have discussed in class is the non-parametric one, which means it does not be involved in any theoretical derivations. It enjoys the advantages of being being able to finish the whole process by  computers themselves. 
 Bootstrap, firstly introduced in 1979, provides a relatively simple way to calculate the standard error of the estimator just based on the sample we known. Actually, Bootstrap that we have discussed in class is the non-parametric one, which means it does not be involved in any theoretical derivations. It enjoys the advantages of being being able to finish the whole process by  computers themselves. 
 
@@ -32,5 +32,65 @@ $$
 $$
 
 where $$\theta^*(\bullet)=\frac{1}{N} \sum_{i=1}^N \theta^*(i)$$. 
+
+## Translate the code into MATLAB language
+
+The instructor provides a method of realization of the Bootstrap in R, here I would like to make it available in MATLAB.
+
+The program could be written in function, which is as follows.
+
+```Matlab
+function main_bootstrap()
+%% import the data from R, "Portfolio" is the same dataset from R.
+Portfolio=xlsread('Portfolio.xlsx')
+
+%% generate one bootstrap sample and calculate the alpha.
+index=randint(1,length(Portfolio),[1 length(Portfolio)]);
+alpha = return_alpha(Portfolio,index) 
+
+%% do bootstrap manually.
+A=[]
+B=1000
+for i=1:B
+A(i)=return_alpha(Portfolio,randint(1,length(Portfolio),[1 length(Portfolio)]));
+end
+
+mu = mean(A)
+sd = std(A)
+
+%% This is the function used for computing alpha.
+    function alpha= return_alpha(data,index)
+        x=data(index,1);
+        y=data(index,2);
+        c=cov(x,y)
+        alpha=((var(y)-c(1,2))/(var(x)+var(y)-2*c(1,2)))
+    end
+end
+```
+Also, we can realize it without matlab functions.
+
+```MATLAB
+clear
+Portfolio=xlsread('Portfolio.xlsx')
+index=randint(1,length(Portfolio),[1 length(Portfolio)]);
+
+A=[]
+B=1000
+for i=1:B
+    index=randint(1,length(Portfolio),[1 length(Portfolio)]);
+    x=data(index,1);
+    y=data(index,2);
+    c=cov(x,y)
+    alpha=((var(y)-c(1,2))/(var(x)+var(y)-2*c(1,2)))
+    A(i)=alpha;
+end
+
+mu = mean(A)
+sd = std(A)
+
+```
+![Result from Matlab](/static/posts/HW2/1.png)![Result from R](/static/posts/HW2/2.png)
+
+It is evident that the results are similar.
 
 ----

@@ -9,7 +9,7 @@ permalink: /projects/MSNE/
 Cooperate with Ruifeng Li and Mingyang Yan, guided by professor Yun Wang.
 
 
-<div align=center>![basketball](/static/projects/280basketball.jpg/)
+<div align=center/>![basketball](/static/projects/280basketball.jpg/)
 
 ## Abstract
 Game Theory could be applied in Basketball playing in terms of selecting the

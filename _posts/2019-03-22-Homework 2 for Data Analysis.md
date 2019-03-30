@@ -17,7 +17,6 @@ Bootstrap is a simple method used to estimate the standard error of an unknown p
 ----
 ## Nonparametric Bootstrap
 Bootstrap, firstly introduced in 1979, provides a relatively simple way to calculate the standard error of the estimator just based on the sample we known. Actually, Bootstrap that we have discussed in class is the non-parametric one, which means it does not be involved in any theoretical derivations. It enjoys the advantages of being being able to finish the whole process by  computers themselves. 
-Bootstrap, firstly introduced in 1979, provides a relatively simple way to calculate the standard error of the estimator just based on the sample we known. Actually, Bootstrap that we have discussed in class is the non-parametric one, which means it does not be involved in any theoretical derivations. It enjoys the advantages of being being able to finish the whole process by  computers themselves. 
 
 Suppose we have an underlying population $$F$$ with a coefficient $$\theta$$ describing its feature and both of them are unknown. Also, we have a sample $$\mathbf{x} = (x_1,x_2,...,x_n)$$ comprising some individuals ($$x_i$$) generated from $$F$$. In statistics, we are able to estimate $$\theta$$ with the estimator $$\hat{\theta}=s(\mathbf{x})$$ through some derivations. The Bootstrap was introduced to measure the accuracy of $$\hat{\theta}$$.
 

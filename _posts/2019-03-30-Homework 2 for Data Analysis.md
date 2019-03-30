@@ -109,12 +109,23 @@ mu = mean(A)
 sd = std(A)
 
 ```
+Having finished the process, I would like to compare the results from both softwares.
 
-<div style="align: center">
+<div align=center>
 <img src="/static/posts/HW2/table1.png"/>
 </div>
 
 
 It is evident that the results from two softwares are similar.
+
+
+### Reference
+[1] Efron B., Tibshirani R. (1993).An introduction to Bootstrap, ISBN 0-412-04231-2.
+[2] Bootstrapping (statistics), https://en.wikipedia.org/wiki/Bootstrapping\_(statistics).
+[3] Jiaming Mao, Regression, https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf
+
+----
+### Applendix
+This notes is also written in LaTex with [PDF Version]({{site.baseurl}}/assets/HW2_zzh.pdf) available. 
 
 ----

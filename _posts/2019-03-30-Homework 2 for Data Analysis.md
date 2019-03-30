@@ -109,9 +109,9 @@ mu = mean(A)
 sd = std(A)
 
 ```
-<center>
-    ![table1](/static/posts/HW2/table1.png)
-</center>
+
+![table1](/static/posts/HW2/table1.png)
+
 
 It is evident that the results from two softwares are similar.
 

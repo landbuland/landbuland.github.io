@@ -89,7 +89,7 @@ end
 Also, we can realize it without matlab functions.
 
 
-```MATLAB
+{% highlight matlab %}
 clear
 Portfolio=xlsread('Portfolio.xlsx')
 index=randint(1,length(Portfolio),[1 length(Portfolio)]);
@@ -108,7 +108,8 @@ end
 mu = mean(A)
 sd = std(A)
 
-```
+{% endhighlight %}
+
 Having finished the process, I would like to compare the results from both softwares.
 
 <div align=center>

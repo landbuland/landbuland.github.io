@@ -10,12 +10,14 @@ categories: Moments
 Author: Zihan Zhang
 
 ----
-## Abstract
+### Abstract
 
 Bootstrap is a simple method used to estimate the standard error of an unknown population with only a sample. In this note, I would like to write an brief introduction about the Bootstrap as well as its realization with some other softwares except for R.
 
 ----
-## Nonparametric Bootstrap
+## 1. Nonparametric Bootstrap
+
+### 1.1 Methodology
 Bootstrap, firstly introduced in 1979, provides a relatively simple way to calculate the standard error of the estimator just based on the sample we known. Actually, Bootstrap that we have discussed in class is the non-parametric one, which means it does not be involved in any theoretical derivations. It enjoys the advantages of being being able to finish the whole process by  computers themselves. 
 
 Suppose we have an underlying population $$F$$ with a coefficient $$\theta$$ describing its feature and both of them are unknown. Also, we have a sample $$\mathbf{x} = (x_1,x_2,...,x_n)$$ comprising some individuals ($$x_i$$) generated from $$F$$. In statistics, we are able to estimate $$\theta$$ with the estimator $$\hat{\theta}=s(\mathbf{x})$$ through some derivations. The Bootstrap was introduced to measure the accuracy of $$\hat{\theta}$$.
@@ -32,9 +34,24 @@ $$
 
 where $$\theta^*(\bullet)=\frac{1}{N} \sum_{i=1}^N \theta^*(i)$$. 
 
+### 1.2 Merits and demerits
+One of the merits of Bootstrap is its simplicity, which makes it possible to extend the sample size in a direct method. Therefore, if the sample describes the population very well, then it is straightforward to compute the standard error without models and assumptions. Besides, Bootstrap provides an appropriate way to check the stability of the result.
+
+On the other hand, if the sample could not be a represent of the underlying population, it is true that the result with Bootstrap is not much reliable.
+
 ----
 
-## Translate the code into MATLAB language
+## 2. Parametric Bootstrap
+
+The parametric Bootstrap for estimating standard error shares the same ideas of the non-parametric one, which is generating Bootstrap samples with limited information. 
+
+The only difference between those two is parametric Bootstrap method assumes that the form of underlying population $$F$$ is known. In other words, we can assume that the sample comes from a particular distribution and it is possible to estimate the coefficients ($$\theta$$) of the distribution based on the sample. Therefore, with the estimated coefficients ($$\hat{\theta}$$) as well as the population ($$\hat{F}$$), we are able to use the parametric Bootstrap, but with a different manner as before. Here, instead of sampling with replacement from the known data, we draw N samples from the parametric estimation of underlying population $$\hat{F}$$, which could be shown as $$\hat{F} \rightarrow (x_1^*,x_2^*,...,x_n^*)$$.
+
+Having drawn the Bootstrap samples, the left procedures for estimating $$\widehat{SE_N}$$ are the same as those of non-parametric Bootstraps.
+
+
+
+## 3. Translate the code into MATLAB language
 
 The instructor provides a method of realization of the Bootstrap in R, here I would like to make it available in MATLAB.
 
@@ -70,7 +87,7 @@ end
 ```
 \\
 Also, we can realize it without matlab functions.
-\\
+
 
 ```MATLAB
 clear
@@ -92,7 +109,7 @@ mu = mean(A)
 sd = std(A)
 
 ```
-![Result from Matlab](/static/posts/HW2/1.png)![Result from R](/static/posts/HW2/2.png)
+
 
 It is evident that the results are similar.
 

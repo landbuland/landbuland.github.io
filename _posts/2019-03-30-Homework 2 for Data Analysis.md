@@ -129,6 +129,6 @@ It is evident that the results from two softwares are similar.
 
 ----
 ### Applendix
-This notes is also written in LaTex with [PDF Version]({{site.baseurl}}/assets/HW2_zzh.pdf) available. 
+This notes is also written in $$\mathbf{LaTex}$$ with [PDF Version]({{site.baseurl}}/assets/HW2_zzh.pdf) available. 
 
 ----

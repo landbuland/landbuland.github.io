@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Homework 2 for Data Analysis."
-date:   2019-03-23 23:59:59
+date:   2019-03-30 23:59:59
 categories: Moments
 ---
 
@@ -109,8 +109,11 @@ mu = mean(A)
 sd = std(A)
 
 ```
+|  | MATLAB | R |
+| :------:| :------: | :------: |
+| Mean | 0.5804 | 0.5802 |
+| Variance | 0.0884 | 0.0912 |
 
-
-It is evident that the results are similar.
+It is evident that the results from two softwares are similar.
 
 ----

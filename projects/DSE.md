@@ -24,7 +24,7 @@ Availability:
 
 [PDF file]({{site.baseurl}}/assets/HW1_zzh.pdf)
 
-[Blog page](https://landbuland.github.io/moments/2019/03/23/Homework-2-for-Data-Analysis.html)
+[Blog page](https://landbuland.github.io/moments/2019/03/30/Homework-2-for-Data-Analysis.html)
 
 ### Note 3 (topic: Classification)
 Updating soon!

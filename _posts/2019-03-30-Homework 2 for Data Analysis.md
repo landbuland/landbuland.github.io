@@ -49,7 +49,7 @@ The only difference between those two is parametric Bootstrap method assumes tha
 
 Having drawn the Bootstrap samples, the left procedures for estimating $$\widehat{SE_N}$$ are the same as those of non-parametric Bootstraps.
 
-
+----
 
 ## 3. Translate the code into MATLAB language
 
@@ -119,6 +119,7 @@ Having finished the process, I would like to compare the results from both softw
 
 It is evident that the results from two softwares are similar.
 
+-----
 
 ### Reference
 [1] Efron B., Tibshirani R. (1993).An introduction to Bootstrap, ISBN 0-412-04231-2.

@@ -109,10 +109,9 @@ mu = mean(A)
 sd = std(A)
 
 ```
-|  | MATLAB | R |
-| :------:| :------: | :------: |
-| Mean | 0.5804 | 0.5802 |
-| Variance | 0.0884 | 0.0912 |
+<center>
+    ![table1](/static/posts/HW2/table1.png)
+</center>
 
 It is evident that the results from two softwares are similar.
 

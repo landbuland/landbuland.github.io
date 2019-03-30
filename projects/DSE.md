@@ -22,7 +22,7 @@ Availability:
 A theoretical report on Bootstrap Standard Error and code translation.
 Availability:
 
-[PDF file]({{site.baseurl}}/assets/HW1_zzh.pdf)
+[PDF file]({{site.baseurl}}/assets/HW2_zzh.pdf)
 
 [Blog page](https://landbuland.github.io/moments/2019/03/30/Homework-2-for-Data-Analysis.html)
 

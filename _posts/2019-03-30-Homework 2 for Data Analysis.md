@@ -110,7 +110,9 @@ sd = std(A)
 
 ```
 
-![table1](/static/posts/HW2/table1.png)
+<div style="align: center">
+<img src="/static/posts/HW2/table1.png"/>
+</div>
 
 
 It is evident that the results from two softwares are similar.

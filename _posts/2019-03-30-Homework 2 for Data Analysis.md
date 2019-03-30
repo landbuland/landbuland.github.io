@@ -56,8 +56,8 @@ Having drawn the Bootstrap samples, the left procedures for estimating $$\wideha
 The instructor provides a method of realization of the Bootstrap in R, here I would like to make it available in MATLAB.
 
 The program could be written in function, which is as follows.
+{% highlight matlab %}
 
-```Matlab
 function main_bootstrap()
 %% import the data from R, "Portfolio" is the same dataset from R.
 Portfolio=xlsread('Portfolio.xlsx')
@@ -84,7 +84,7 @@ sd = std(A)
         alpha=((var(y)-c(1,2))/(var(x)+var(y)-2*c(1,2)))
     end
 end
-```
+{% endhighlight %}
 \\
 Also, we can realize it without matlab functions.
 

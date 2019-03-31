@@ -124,7 +124,7 @@ It is evident that the results from two softwares are similar.
 ### Reference
 [1] Efron B., Tibshirani R. (1993).An introduction to Bootstrap, ISBN 0-412-04231-2.
 
-[2] Bootstrapping (statistics), [https://en.wikipedia.org/wiki/Bootstrapping\_(statistics)](https://en.wikipedia.org/wiki/Bootstrapping\_(statistics)).
+[2] Bootstrapping (statistics), [https://en.wikipedia.org/wiki/Bootstrapping_(statistics)](https://en.wikipedia.org/wiki/Bootstrapping\_(statistics)).
 
 [3] Jiaming Mao, Regression, [https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf](https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf)
 

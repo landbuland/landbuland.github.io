@@ -112,9 +112,9 @@ sd = std(A)
 
 Having finished the process, I would like to compare the results from both softwares.
 
-<div align=center>
+
 <img src="/static/posts/HW2/table1.png">
-</div>
+
 
 
 It is evident that the results from two softwares are similar.
@@ -131,5 +131,7 @@ It is evident that the results from two softwares are similar.
 ----
 ### Applendix
 This notes is also written in $$\mathbf{LaTex}$$ with [PDF Version]({{site.baseurl}}/assets/HW2_zzh.pdf) available. 
+
+Code and data are available [here](https://github.com/landbuland/landbuland.github.io/tree/master/assets/Portfolio)
 
 ----

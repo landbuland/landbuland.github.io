@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-![CV](/assets/Github_CV.pdf)
+![CV](/assets/Github_CV.png)

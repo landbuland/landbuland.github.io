@@ -1,7 +1,8 @@
 ---
-
-
-
+layout: post
+title: "Homework 3 for Data Analysis."
+date:   2019-04-07 23:59:59
+categories: Moments
 ---
 # Independence of Irrelevant Alternatives (IIA) Assumptions and some Extentions
 
@@ -71,7 +72,7 @@ Sometimes the IIA assumption fails, the multinomial logit model fails correspond
 
 Nested logit model deals with the problems that IIA fails. It divided all the alternatives into some subsets (also called nests) and those alternatives within the same subsets or nests are allowed to be similiar and correlated. The correlation between alternatives are shown in the following figure. The left one shows multinomial logit model while the right one shows the nested logit model.
 
-[图片1]
+<img src="/static/posts/HW3/1.png">
 
 where $$A_i$$ and $$B_i$$ indicates the alternatives that individual $$i$$ has.
 
@@ -81,7 +82,7 @@ For classification with nested logit model, first we estimate for the alternativ
 
 Take the example of mode of transportation that we have discussed in class to illustrate, suppose households are choosing their transportations from bus subway and car. the relationships for the alternatives should be:
 
-[图片2]
+<img src="/static/posts/HW3/2.png">
 
 
 
@@ -105,9 +106,8 @@ $$P(Subway)=P(Subway|PT)P(PT)$$
 
 ## Realization of H-M test and Nested logit model in R
 
-
-$$
-# Hausman test for IIA
+{% highlight matlab %}
+## Hausman test for IIA
 library(mlogit)
 transport.long <- mlogit.data(transport, shape="wide",  choice = "ModeOfTransportation")
 logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.long,reflevel = "bus")
@@ -116,3 +116,4 @@ logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.lo
 public <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork, transport.long,alt.subset=c("bus","subway"))
 hmftest(logitfit2,public)
 $$
+{% endhighlight %}

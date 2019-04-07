@@ -6,15 +6,15 @@ categories: Moments
 ---
 # Independence of Irrelevant Alternatives (IIA) Assumptions and some Extentions
 
-
+----
 
 ## Abstract
 
 In this note, I would like to concentrate on the topic about Independence of Irrelevant Alternatives(IIA) assumptions, which plays a crucial role in model selections when doing classifications. Thus, based on what we have learned from class, I would like to illustrate what IIA is, the method of testing it and some reliable models that could be applied if IIA failed.
 
+----
 
-
-## What is IIA?
+## 1. What is IIA?
 
 Generally speaking, Independence of Irrevelant Alternatives assumption suggests that the preference of an individual between item A and item B does not change when another item X alters if IIA assumption holds, which means the outcome of a choice between two items only depend on the features of these two items and it is not affected by the features or characteristics of other items or variables.
 
@@ -38,7 +38,7 @@ which is in linear form and please notice that I have normalized $$\mathbf{\beta
 
 From the formula, it is evident that the odds is only affected by option $$j$$ and $$k$$ , which is the implication of IIA assumption (at least in our classification topic and logit model).
 
-## Method of Testing IIA
+## 2. Method of Testing IIA
 
 As the previous chapter mentioned, the multinomial requires  the independence of irrevelent allternatives to hold, making the result to be reliable. Hence, in order to test the IIA assumption, Hausman and McFadden (1984) proposed a generalized method with underlying principle of removing one alternatives, estimating the model again and comparing the results. 
 
@@ -54,17 +54,34 @@ $$H_1=[\mathbf{\widehat{\beta_J}-\widehat{\beta_{J-1}}}][\mathbf{\widehat{V_{J-1
 
 It follows the Chi-Square distribution with the degree of freedom of 1. 
 
-
-
 Actually, if the categories $$J$$ is large, we can delete more than one alternatives and do this test following the procedures above. In that circumstance, the H-M statistics ought to be:
 
 $$H_k=[\mathbf{\widehat{\beta_J}-\widehat{\beta_{J-k}}}][\mathbf{\widehat{V_{J-k}}}-\mathbf{\mathbf{\widehat{V_J}}}][\mathbf{\widehat{\beta_J}-\widehat{\beta_{J-k}}}]$$
 
 where k manifest the number of alternatives we delete in the H-M test, while the degree of freedom tend to be $$k $$.
 
+Here, I provide the realization of hausman test in R.
 
+First, load the data and transfer it into wide shape. We have to estimate with multinomial logit model.
+{% highlight R %}
+## Hausman test for IIA
+library(mlogit)
+transport.long <- mlogit.data(transport, shape="wide",  choice = "ModeOfTransportation")
+logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.long,reflevel = "bus")
+{% endhighlight %}
 
-##  Nested logit model
+Then, we are going to delete the "Car" option and estimate within the subset. Having those done, Hausman test is available.
+
+{% highlight R %}
+## first estimate the same model only for public transports
+public <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork, transport.long,alt.subset=c("bus","subway"))
+hmftest(logitfit2,public)
+$$
+{% endhighlight %}
+
+The result for this dataset is as follows.
+
+## 3. Nested logit model
 
 Sometimes the IIA assumption fails, the multinomial logit model fails correspondingly and we have to try other models. In essence, the multinomial probit model that we have learned in class could be an alternative, however, it suffers from the speed of calculation. Commonly it takes relatively long time to get access to the result. Hence, in this section I would like to introduce another optional model, which is the nested logit model.
 
@@ -95,6 +112,7 @@ $$P(Car)=\frac{exp(\mathbf{x'\beta_{car}})}{exp(\mathbf{x'\beta_{car}})+exp(V_{P
 where $$V_{PT}=\phi log(exp(\mathbf{x'\beta_{bus}})+exp(\mathbf{x'\beta_{subway}}))+\sum_k \alpha_kZ_k$$
 
 $$P(PT)=1-P(Car)$$
+\\
 
 Therefore, according to the conditional probability, we are able to compute the probability of various choices and do the classification.
 
@@ -106,14 +124,3 @@ $$P(Subway)=P(Subway|PT)P(PT)$$
 
 ## Realization of H-M test and Nested logit model in R
 
-{% highlight matlab %}
-## Hausman test for IIA
-library(mlogit)
-transport.long <- mlogit.data(transport, shape="wide",  choice = "ModeOfTransportation")
-logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.long,reflevel = "bus")
-
-## first estimate the same model only for public transports
-public <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork, transport.long,alt.subset=c("bus","subway"))
-hmftest(logitfit2,public)
-$$
-{% endhighlight %}

@@ -83,7 +83,7 @@ $$
 
 The result for this dataset is as follows.
 
-![4](\static\posts\HW4.4.png)
+<img src="/static/posts/HW3/4.png">
 
 ## 3. Nested logit model
 

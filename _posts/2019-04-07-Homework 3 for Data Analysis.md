@@ -141,7 +141,7 @@ $$P(Subway)=P(Subway|PT)P(PT)$$
 
 ## Appendix
 
-The homework is also written in $$\mathbf{LaTex}$$ with [PDF version]({{site.baseurl}}/assets/script3.pdf)available.
+The homework is also written in $$\mathbf{LaTex}$$ with [PDF version]({{site.baseurl}}/assets/script_3.pdf)available.
 
 Data (Transport.txt) are available [here](https://github.com/landbuland/landbuland.github.io/tree/master/assets/HW3/)
 

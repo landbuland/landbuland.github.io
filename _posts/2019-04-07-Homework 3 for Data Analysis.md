@@ -127,10 +127,17 @@ $$P(Subway)=P(Subway|PT)P(PT)$$
 ----------
 
 ## Reference
-[1]Independence of irrelevant alternatives, Wikipedia,[https://en.wikipedia.org/wiki/Independence_of_irrelevant_alternatives#Criticism_of_IIA]https://en.wikipedia.org/wiki/Independence_of_irrelevant_alternatives#Criticism_of_IIA
+[1]Independence of irrelevant alternatives, Wikipedia,[https://en.wikipedia.org/wiki/Independence_of_irrelevant_alternatives#Criticism_of_IIA](https://en.wikipedia.org/wiki/Independence_of_irrelevant_alternatives#Criticism_of_IIA)
 
-[2]Nested Logit Model,Indian institute of technology, [https://www.civil.iitb.ac.in/~kvkrao/uploads/5/9/3/7/59372049/nl.pdf]https://www.civil.iitb.ac.in/~kvkrao/uploads/5/9/3/7/59372049/nl.pdf
+[2]Nested Logit Model,Indian institute of technology, [https://www.civil.iitb.ac.in/~kvkrao/uploads/5/9/3/7/59372049/nl.pdf](https://www.civil.iitb.ac.in/~kvkrao/uploads/5/9/3/7/59372049/nl.pdf)
 
-[3]Jiaming Mao, Classification, [https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf]https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf
+[3]Jiaming Mao, Classification, [https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf](https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)
 
 [4]王静, 《嵌套logit模型在STATA软件当中的拟合》
+
+------
+
+## Appendix
+
+The homework is also written in $$\mathbf{LaTex}$$ with [PDF version](\asset\script_3.pdf) available.
+

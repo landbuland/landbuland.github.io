@@ -27,4 +27,13 @@ Availability:
 [Blog page](https://landbuland.github.io/moments/2019/03/30/Homework-2-for-Data-Analysis.html)
 
 ### Note 3 (topic: Classification)
-Updating soon!
+A theoratical notes on IIA assumptions and some extentions related to nested logit model.
+
+[Blog page](https://landbuland.github.io/moments/2019/04/07/Homework-3-for-Data-Analysis.html)
+
+[PDF file]({{site.baseurl}}/assets/script_3.pdf)
+
+
+### Note 4 (Topic: Regularization)
+
+Coming soon!

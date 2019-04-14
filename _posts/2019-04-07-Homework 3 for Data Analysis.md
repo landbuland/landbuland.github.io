@@ -38,6 +38,8 @@ which is in linear form and please notice that I have normalized $$\mathbf{\beta
 
 From the formula, it is evident that the odds is only affected by option $$j$$ and $$k$$ , which is the implication of IIA assumption (at least in our classification topic and logit model).
 
+------
+
 ## 2. Method of Testing IIA
 
 As the previous chapter mentioned, the multinomial requires  the independence of irrevelent allternatives to hold, making the result to be reliable. Hence, in order to test the IIA assumption, Hausman and McFadden (1984) proposed a generalized method with underlying principle of removing one alternatives, estimating the model again and comparing the results. 
@@ -64,7 +66,7 @@ Here, I provide the realization of hausman test in R.
 
 First, load the data and transfer it into wide shape. We have to estimate with multinomial logit model.
 {% highlight R %}
-## Hausman test for IIA
+## first estimate the same model only for public transports
 library(mlogit)
 transport.long <- mlogit.data(transport, shape="wide",  choice = "ModeOfTransportation")
 logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.long,reflevel = "bus")
@@ -73,13 +75,15 @@ logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.lo
 Then, we are going to delete the "Car" option and estimate within the subset. Having those done, Hausman test is available.
 
 {% highlight R %}
-## first estimate the same model only for public transports
+## subset estimation and Hausman test for IIA
 public <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork, transport.long,alt.subset=c("bus","subway"))
 hmftest(logitfit2,public)
 $$
 {% endhighlight %}
 
 The result for this dataset is as follows.
+
+![4](\static\posts\HW4.4.png)
 
 ## 3. Nested logit model
 
@@ -93,7 +97,7 @@ Nested logit model deals with the problems that IIA fails. It divided all the al
 
 where $$A_i$$ and $$B_i$$ indicates the alternatives that individual $$i$$ has.
 
-For classification with nested logit model, first we estimate for the alternatives in Multinomial logit model within the lower nests, which is represented as $B$ in the above figure. Notice that we have to omit all the variables (denote as $\mathbf{Z}$) that could be the same for alternatives within the nests.
+For classification with nested logit model, first we estimate for the alternatives in Multinomial logit model within the lower nests, which is represented as $$B$$ in the above figure. Notice that we have to omit all the variables (denote as $$\mathbf{Z}$$) that could be the same for alternatives within the nests.
 
 
 
@@ -101,7 +105,7 @@ Take the example of mode of transportation that we have discussed in class to il
 
 <img src="/static/posts/HW3/2.png">
 
-
+Hence, we can donete these probabilities as follows:
 
 $$Pr(Bus|PT)=\frac{exp(\mathbf{x'\beta_{bus}})}{exp(\mathbf{x'\beta_{bus}})+exp(\mathbf{x'\beta_{subway}})}$$
 
@@ -112,7 +116,6 @@ $$P(Car)=\frac{exp(\mathbf{x'\beta_{car}})}{exp(\mathbf{x'\beta_{car}})+exp(V_{P
 where $$V_{PT}=\phi log(exp(\mathbf{x'\beta_{bus}})+exp(\mathbf{x'\beta_{subway}}))+\sum_k \alpha_kZ_k$$
 
 $$P(PT)=1-P(Car)$$
-\\
 
 Therefore, according to the conditional probability, we are able to compute the probability of various choices and do the classification.
 
@@ -120,7 +123,11 @@ $$P(Bus)=P(Bus|PT)P(PT)$$
 
 $$P(Subway)=P(Subway|PT)P(PT)$$
 
+----------
 
+## Reference
+[1]
 
-## Realization of H-M test and Nested logit model in R
+[2]
 
+[3]

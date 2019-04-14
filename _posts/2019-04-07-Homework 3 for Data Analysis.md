@@ -68,6 +68,7 @@ First, load the data and transfer it into wide shape. We have to estimate with m
 {% highlight R %}
 ## first estimate the same model only for public transports
 library(mlogit)
+transport <- read.csv("Transport.txt")
 transport.long <- mlogit.data(transport, shape="wide",  choice = "ModeOfTransportation")
 logitfit2 <- mlogit(ModeOfTransportation~0|LogIncome+DistanceToWork,transport.long,reflevel = "bus")
 {% endhighlight %}
@@ -126,8 +127,10 @@ $$P(Subway)=P(Subway|PT)P(PT)$$
 ----------
 
 ## Reference
-[1]
+[1]Independence of irrelevant alternatives, Wikipedia,https://en.wikipedia.org/wiki/Independence_of_irrelevant_alternatives#Criticism_of_IIA
 
-[2]
+[2]Nested Logit Model,Indian institute of technology, https://www.civil.iitb.ac.in/~kvkrao/uploads/5/9/3/7/59372049/nl.pdf
 
-[3]
+[3]Jiaming Mao, Classification, https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf
+
+[4]王静, 《嵌套logit模型在STATA软件当中的拟合》

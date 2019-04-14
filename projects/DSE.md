@@ -3,8 +3,8 @@ layout: page
 title: Data Science for Economics
 permalink: /projects/DSE/
 ---
-![](/static/projects/bjsubway.jpg)
 
+![](/static/projects/DSE.png)
 
 # Lists of my notes on Microeconometrics
 

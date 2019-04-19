@@ -14,7 +14,7 @@
 		"tags": ["Game Theory","R","STATA","Primary"]
 	},
 	{
-		"name": "Notes on Data Science",
+		"name": "Notes on Data Science                                     ",
 		"image": "DSE.png",
 		"url": "/projects/DSE/",
 		"date": "Mar 2019",
@@ -26,35 +26,8 @@
 		"url": "/projects/IYNAS/",
 		"date": "April 2019",
 		"tags": ["Data Science","STATA","Primary"]
-	},
-	{
-		"name": "Is your Nationality a secret?",
-		"image": "worldmap.jpg",
-		"url": "/projects/IYNAS/",
-		"date": "April 2019",
-		"tags": ["Data Science","STATA","Primary"]
-	},
-	{
-		"name": "Is your Nationality a secret?",
-		"image": "worldmap.jpg",
-		"url": "/projects/IYNAS/",
-		"date": "April 2019",
-		"tags": ["Data Science","STATA","Primary"]
-	},
-	{
-		"name": "Notes on Data Science",
-		"image": "DSE.png",
-		"url": "/projects/DSE/",
-		"date": "Mar 2019",
-		"tags": ["Data Science","R","STATA","Matlab","Primary"]
-	},
-	{
-		"name": "Notes on Data Science",
-		"image": "DSE.png",
-		"url": "/projects/DSE/",
-		"date": "Mar 2019",
-		"tags": ["Data Science","R","STATA","Matlab","Primary"]
-	},
+	}
+	
 
 
 ]

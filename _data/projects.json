@@ -19,6 +19,13 @@
 		"url": "/projects/DSE/",
 		"date": "Mar 2019",
 		"tags": ["Data Science","R","STATA","Matlab","Primary"]
+	},
+	{
+		"name": "Is your Nationality a secret?",
+		"image": "worldmap.jpg",
+		"url": "/projects/IYNAS/",
+		"date": "April 2019",
+		"tags": ["Data Science","STATA","Primary"]
 	}
 
 ]

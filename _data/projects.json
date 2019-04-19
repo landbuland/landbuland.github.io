@@ -40,8 +40,21 @@
 		"url": "/projects/IYNAS/",
 		"date": "April 2019",
 		"tags": ["Data Science","STATA","Primary"]
-	}
-
+	},
+	{
+		"name": "Notes on Data Science",
+		"image": "DSE.png",
+		"url": "/projects/DSE/",
+		"date": "Mar 2019",
+		"tags": ["Data Science","R","STATA","Matlab","Primary"]
+	},
+	{
+		"name": "Notes on Data Science",
+		"image": "DSE.png",
+		"url": "/projects/DSE/",
+		"date": "Mar 2019",
+		"tags": ["Data Science","R","STATA","Matlab","Primary"]
+	},
 
 
 ]

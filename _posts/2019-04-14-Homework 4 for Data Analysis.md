@@ -6,7 +6,7 @@ categories: Moments
 ---
 # Is your nationality a secret?--evidence from 2016 ESS data and regularization method
 
-Author: Zhaokun Zhang, Zihan Zhang
+Author: Zhaokun Zhang, Zihan Zhang **For the challange problem **
 ![euromap](/static/img/Euromap.png)
 
 ----

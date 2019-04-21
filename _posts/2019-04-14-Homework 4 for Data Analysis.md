@@ -13,6 +13,7 @@ Author: Zhaokun Zhang, Zihan Zhang **For the challange problem **
 ## Abstract
 
 In machine learning, Lasso, Ridge regression and ealstic net are most common and widespread methods of regularization. In this artilce, we applied these methods with an intersting expriment, which is predicting nationality based on some personal characteristics and cognition. Through the analysis we hope to have a beter understanding of regularization and model selection and find out some important factors do distinguish citizens in different countries.
+
 ----
 
 

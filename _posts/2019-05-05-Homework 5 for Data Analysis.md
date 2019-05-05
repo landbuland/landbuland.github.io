@@ -16,9 +16,9 @@ In this note, I would like to combine the regular decision tree model with  line
 
 
 
-## CART - Classification and regression tree
+## 1. CART - Classification and regression tree
 
-### "Piecewise constant"  (original) trees
+### 1.1 "Piecewise constant"  (original) trees
 
 "Cart" is an aggregate name of classification and regression tree, which is a statistical method for classification and regression that lies between parametric and non-parametric statistics. It provides a method of dividing the predictor space into various regions and do the fitness in each region. And usually it goes as piecewise constant form.
 
@@ -58,7 +58,7 @@ $$
 \widehat{f}(x)=\sum_{m=1}^{M} c_{m} \cdot \mathcal{I}\left\{x \in R_{m}\right\}
 $$
 
-### Polynomial (Linear) Trees
+### 1.2 Polynomial (Linear) Trees
 
 Usually, trees are commonly recognized as a method with as similar settings and outcomes as piecewise constant regression. Therefore, there would be some trees similar as piecewise linear or polynomial forms and we can substitute the function of original trees with a linear form to build a linear regression tree.
 
@@ -85,7 +85,7 @@ $$
 \hat{f}(x)=\sum_{m=1}^M \widehat{y_m}\cdot \mathcal{I}\{x\in R_m\}
 $$
 
-### Error Term
+### 1.3 Error Term
 
 In the process of construction of trees, we usually minimize the in sample error within each region and then sum them together, which means that
 
@@ -101,7 +101,7 @@ $$
 
 where $$T$$ is the size of trees and $$\alpha​$$ is a tuning parameter that controls the magnitude of penalties for magnitude of a tree.
 
-##Realization of linear trees in R
+## 2. Realization of linear trees in R
 
 The instructor provided methods of realizing regular trees (piecewise constant) in class, here I would attempt to explore a method to build linear trees in R.
 
@@ -121,7 +121,7 @@ else
 
 
 
-### Original Tree Models
+### 2.1 Original Tree Models
 
 Decision trees follow the ideas of separating the entire space into various regions to gain more precise estimation for the original data space. Here, we can build a tree to fit the data generated previously.
 
@@ -153,13 +153,14 @@ fit.tree.error
 
 The out sample error is approximately 0.31 for tree model.
 
-### Piecewise Polynomial (Linear) Regression for higher dimensions
+### 2.2 Piecewise Polynomial (Linear) Regression for higher dimensions
 
 In "regression" section, we have talked about the piecewise method for regression, which provided an  advanced approach for better precision in local areas. With the similar motivation with trees, we could apply the piecewise regression for multiple dimensions and variables, seeking for the better accuracy in the divided regions.
 
 For example, I apply piecewise method for the previous data, setting knots at 0.5, 0 and -0.5 for both $$x_1$$ and $$x_2$$ and divided the whole plain into 16 parts. We can see the characteristics of data from the following diagram. 
 
 ```R
+# Piecewise linear model
 library(splines)
 library(AER)
 
@@ -183,7 +184,7 @@ The fitted plain and data points with piecewise linear model for the data is as 
 
 As the computation, the out of sample error is 0.2676, indicating the estimation with piecewise method is pretty good. Intuitively, from the two scatter plots, it is obvious that the results from the piecewise method is quite close to their actual values. Furthermore, the fitted error is smaller that the counterparts of previous tree model.
 
-### Combination of Trees and Piecewise Polynomial Method
+### 2.3 Combination of Trees and Piecewise Polynomial Method
 
 The mechanism of piecewise polynomial or linear tree is simple because we can simply substitute the regression function from mean function to linear or polynomial functions. The most pure procedure with the same idea of trees is that generating leaves first and pruning afterwards. However, due to the limitation of my programing skill, I did not find any programs that could make the idea into realization. Thus, I suppose it could be a wise idea of using knots of original trees as the separation boundary, especially for regression trees. The underlying consideration is that notwithstanding taking average could not be the best approach for regression tree, it could be helpful to settle the boundary of sub-spaces with the idea of minimizing the out sample error. Within these separated regions, models with higher complexity could be applied for better estimation.
 

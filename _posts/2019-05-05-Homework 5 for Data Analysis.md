@@ -169,7 +169,7 @@ fit1 <- lm(y ~ bs(x1,knots = c(-0.5,0,0.5),degree = 1)+bs(x2,knots = c(-0.5,0,0.
 y.hat <- predict(fit1,teset)
 fit.hat.error <- sum((y.hat-teset$y)^2)/500
 fit.hat.error
-# [1] 0.2675818
+# [1] 0.001103903
 ```
 
 ![3](/static/posts/HW5/3.png)
@@ -182,7 +182,7 @@ The fitted plain and data points with piecewise linear model for the data is as 
 
 ![6](/static/posts/HW5/6.png)
 
-As the computation, the out of sample error is 0.2676, indicating the estimation with piecewise method is pretty good. Intuitively, from the two scatter plots, it is obvious that the results from the piecewise method is quite close to their actual values. Furthermore, the fitted error is smaller that the counterparts of previous tree model.
+As the computation, the out of sample error is 0.0011, indicating the estimation with piecewise method is pretty good. Intuitively, from the two scatter plots, it is obvious that the results from the piecewise method is quite close to their actual values. Furthermore, the fitted error is considerably smaller than the counterparts of previous tree model.
 
 ### 2.3 Combination of Trees and Piecewise Polynomial Method
 

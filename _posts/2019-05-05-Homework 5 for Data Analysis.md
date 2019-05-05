@@ -27,24 +27,33 @@ Here, the predictor space means the space that contains all the predictors, whic
 Those trees can be used for both regression and classification with slight differences in their settings. 
 
 Suppose training data could be donated as $$D=\{(\mathbf{x_i} ,y_i)\}​$$ for $$N​$$ observations within the dataset and it have been separated into $$M​$$ regions, $$R_1,R_2,…,R_M​$$, by a tree. For each split region $$m​$$, the estimation is:
+
 $$
 \overline{y_m}= \frac{1}{n_m}\sum_{x_i\in R_m}y_i
 $$
+
 and we can donate the regression function as:
+
 $$
 \hat{f}(x)=\sum_{m=1}^M \overline{y_m}\cdot \mathcal{I}\{x\in R_m\}
 $$
+
 For classification trees, the setting in function slightly different with the counterpart of a regression trees. The estimation in each part could be represented as:
+
 $$
 \widehat{p}_{j}^{m}=\frac{1}{n_{m}} \sum_{x_{i} \in R_{m}} \mathcal{I}\left\{y_{i}=j\right\}
 $$
+
 where $$\widehat{p}_{j}^{m}=Pr(y=j|R_m)$$, which is the probability of each alternatives in each region.
 
 In each region, we choose the alternative with the highest probability within this region to be the prediction, which is:
+
 $$
 c_{m}=\arg \max _{j} \widehat{p}_{j}^{m}
 $$
+
 And the classification function can be represented as:
+
 $$
 \widehat{f}(x)=\sum_{m=1}^{M} c_{m} \cdot \mathcal{I}\left\{x \in R_{m}\right\}
 $$
@@ -54,19 +63,24 @@ $$
 Usually, trees are commonly recognized as a method with as similar settings and outcomes as piecewise constant regression. Therefore, there would be some trees similar as piecewise linear or polynomial forms and we can substitute the function of original trees with a linear form to build a linear regression tree.
 
 Suppose $$D=\{(\mathbf{x_i} ,y_i)\}$$ comprises our training data. Similar as before, for each region $$R_j\in \{R_1,R_2,…,R_m\}$$, we are able construct the regression in linear form:
+
 $$
 \widehat{y_m}=\mathbf{\beta'x}
 $$
+
 
 $$
 \hat{f}(x)=\sum_{m=1}^M \widehat{y_m}\cdot \mathcal{I}\{x\in R_m\}
 $$
 
 For classification tree, we can apply the Logit regression instead of counting probability to make the classification.
+
 $$
 \widehat{y_m}=F(\mathbf{\beta'x})
 $$
+
 where $$F(\beta'\mathbf{x})=\frac{1}{1+exp^{-1}(\beta'\mathbf{x})}$$ and the regression is the same as the regression tree.
+
 $$
 \hat{f}(x)=\sum_{m=1}^M \widehat{y_m}\cdot \mathcal{I}\{x\in R_m\}
 $$
@@ -74,13 +88,17 @@ $$
 ### Error Term
 
 In the process of construction of trees, we usually minimize the in sample error within each region and then sum them together, which means that
+
 $$
 \mathrm{RSS}=\sum_{m=1}^{M} \sum_{x_{i} \in R_{m}}\left(y_{i}-\widehat{y}_{m}\right)^{2}
 $$
+
 However, due to the goal of minimizing RSS for the whole region, it is reasonable to project that a couple of leaves would be generated to minimize the in sample error. As a result, the tree might be too large to predict because of potential overfitting problems. Hence, we apply "Pruning" method, including the penalty term for tree's  number of leaves to preventing from generating too many branches and potential overfitting problems.
+
 $$
 Error=\sum_{m=1}^{|T|} \sum_{x_{i} \in R_{m}}\left(y_{i}-\overline{y}_{m}\right)^{2}+\alpha|T|
 $$
+
 where $$T$$ is the size of trees and $$\alpha​$$ is a tuning parameter that controls the magnitude of penalties for magnitude of a tree.
 
 ##Realization of linear trees in R
@@ -109,11 +127,11 @@ Decision trees follow the ideas of separating the entire space into various regi
 
 From the figure, it is evident that a tree with 12 leaves minimize the out sample error.
 
-![4](/Users/zhangzihan/Documents/tex/Data Science report/HW5/report/4.png)
+![1](/static/posts/HW5/1.png)
 
 Therefore, the tree is as follows.
 
-![3](/Users/zhangzihan/Documents/tex/Data Science report/HW5/report/3.png)
+![2](/static/posts/HW5/2.png)
 
 ```R
 # Trees
@@ -153,15 +171,15 @@ fit.hat.error
 # [1] 0.2675818
 ```
 
-![2](/Users/zhangzihan/Documents/tex/Data%20Science%20report/HW5/report/2.png)
+![3](/static/posts/HW5/3.png)
 
-![scatter1](/Users/zhangzihan/Documents/tex/Data%20Science%20report/HW5/report/scatter1.png)
+![4](/static/posts/HW5/4.png)
 
 The fitted plain and data points with piecewise linear model for the data is as follows. 
 
-![1](/Users/zhangzihan/Documents/tex/Data%20Science%20report/HW5/report/1.png)
+![5](/static/posts/HW5/5.png)
 
-![scatter2](/Users/zhangzihan/Documents/tex/Data%20Science%20report/HW5/report/scatter2.png)
+![6](/static/posts/HW5/6.png)
 
 As the computation, the out of sample error is 0.2676, indicating the estimation with piecewise method is pretty good. Intuitively, from the two scatter plots, it is obvious that the results from the piecewise method is quite close to their actual values. Furthermore, the fitted error is smaller that the counterparts of previous tree model.
 
@@ -252,7 +270,7 @@ fit.c.error
 
 ### Reference
 
-[1]  Eberly College of Science, Penn State University, Piecewise linear regression models, STAT 501, https://newonlinecourses.science.psu.edu/stat501/node/310/
+[1]  Eberly College of Science, Penn State University, Piecewise linear regression models, STAT 501, [https://newonlinecourses.science.psu.edu/stat501/node/310/](https://newonlinecourses.science.psu.edu/stat501/node/310/)
 
 [2] Chaudhuri P , Huang M C , Loh W Y , et al. Piecewise-Polynomial Regression Trees[J]. Statistica Sinica, 1994, 4(1):143-167.
 
@@ -260,6 +278,6 @@ fit.c.error
 
 [4] Hadley Wickham, ggplot2:数据分析与图形艺术[M], 西安交通大学出版社, 2013
 
-[5] Jiaming Mao, Regression, https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf
+[5] Jiaming Mao, Regression, [https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf](https://jiamingmao.github.io/data-analysis/assets/Lectures/Regression.pdf)
 
-[6] Jiaming Mao, Decision Tree and Ensemble Method, https://jiamingmao.github.io/data-analysis/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf
+[6] Jiaming Mao, Decision Tree and Ensemble Method, [https://jiamingmao.github.io/data-analysis/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf](https://jiamingmao.github.io/data-analysis/assets/Lectures/Decision_Trees_and_Ensemble_Methods.pdf)

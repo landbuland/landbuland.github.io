@@ -9,6 +9,7 @@ categories: Moments
 
 
 Author: ZHANG Zihan
+The note is written in **Markdown** with [PDF Version]({{site.baseurl}}/assets/HW5/HW5_script.pdf) available.
 
 ## 					Abstract
 

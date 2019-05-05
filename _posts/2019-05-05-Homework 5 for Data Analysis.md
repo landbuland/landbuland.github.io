@@ -263,7 +263,7 @@ fit.c.error
 # 0.005494581
 ```
 
- From the result, we can see that the piecewise linear tree model reduced the sample error significantly.
+ From the result, we can see that the piecewise linear tree model also reduced the sample error significantly compared to the tree model.
 
 
 

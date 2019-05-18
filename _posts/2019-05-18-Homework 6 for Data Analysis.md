@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Homework 4 for Data Analysis."
-date:   2019-04-14 23:59:59
+title: "Homework 6 for Data Analysis."
+date:   2019-05-18 23:59:59
 categories: Moments
 ---
 
@@ -14,5 +14,9 @@ In this note, we are going to discuss the elements of Neural Network and its app
 
 
 ------
-## Fu
+## Full Version
+
+The full version written in `R Markdown` is available with [PDF]({{site.baseurl}}/assets/HW6/HW6_script.pdf).
+
+The `R code` is available [here](/assets/HW6).
 

@@ -18,5 +18,5 @@ In this note, we are going to discuss the elements of Neural Network and its app
 
 The full version written in `R Markdown` is available with [PDF]({{site.baseurl}}/assets/HW6/HW6_script.pdf).
 
-The `R code` is available [here](/assets/HW6).
+The `R code` is available [here](https://github.com/landbuland/landbuland.github.io/tree/master/assets/HW6).
 

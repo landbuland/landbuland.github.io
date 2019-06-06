@@ -61,7 +61,7 @@ $$
 在现实应用当中，除了平均值的比较，我们还可以用线性回归等一系列模型去估计ATE。
 
 $$
-ATE=\frac{\part E(Y|\operatorname{Do(x=a)}}{\partial x}
+ATE=\frac{\partial E(Y|\operatorname{Do(x=a)}}{\partial x}
 $$
 
 ### 1.3 Conditional Independence Assumption (CIA)

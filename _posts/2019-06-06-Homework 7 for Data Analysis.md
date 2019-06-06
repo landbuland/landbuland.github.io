@@ -23,7 +23,7 @@ $$
 E[y | \operatorname{do}(x=a)]=E[y | x=a]
 $$
 
-#### 1.1 RCM
+### 1.1 RCM
 
 传统用于探究因果关系的一个框架是Rubin Causal Model(RCM)，这一模型借鉴了实验的思想。假设我们要探究一个treatment是否多outcome有因果关系，在RCM中假设个体的outcome $$Y_i= \{ Y_{1i},Y_{0i} \} $$ ，其中$$Y_{1i}$$ 表示个体 $$i$$ 如果受到了treatment的outcome, $$Y_{oi}$$ 表示个体i 如果没有收到treatment 的结果。而且他们和treatment之间有如下的关系。
 

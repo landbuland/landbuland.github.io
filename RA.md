@@ -45,6 +45,5 @@ permalink: /RA/
 
 <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=42127422&width=760&source=iframe'></script>
 
-若手机上无法显示问卷，请扫描二维码
-![code](/static/img/raqrcode.png)
+若手机上无法显示问卷，请[点击这里](https://www.wjx.top/jq/42127422.aspx)
 

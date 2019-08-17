@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homework 3 for Data Analysis."
+title: "Independence of Irrelevant Alternatives (IIA) Assumptions and some Extentions"
 date:   2019-04-07 23:59:59
 categories: Moments
 ---

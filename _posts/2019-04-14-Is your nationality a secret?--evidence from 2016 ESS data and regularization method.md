@@ -19,7 +19,7 @@ In machine learning, Lasso, Ridge regression and ealstic net are most common and
 
 ## Full version
 
-The note is written in **R Markdown** with [PDF Version]({{site.baseurl}}/assets/HW4_script.pdf) available.
+The note is written in `R Markdown` with [PDF Version]({{site.baseurl}}/assets/HW4_script.pdf) available.
 
 ----
 

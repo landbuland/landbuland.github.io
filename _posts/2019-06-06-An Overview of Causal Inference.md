@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homework 7 for Data Analysis."
+title: "An Overview of Causal Inference"
 date:   2019-06-06 23:59:59
 categories: Moments
 ---

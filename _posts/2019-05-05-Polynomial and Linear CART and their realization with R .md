@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Homework 5 for Data Analysis."
+title: "Polynomial and Linear CART and their realization with R "
 date:   2019-05-05 23:59:59
 categories: Moments
 ---
 
-# Polynomial and Linear CART and their realization with R (challange)
+# Polynomial and Linear CART and their realization with R 
 
 
 Author: ZHANG Zihan

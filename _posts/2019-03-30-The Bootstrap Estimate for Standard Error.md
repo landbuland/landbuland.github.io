@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homework 2 for Data Analysis."
+title: "The Bootstrap Estimate for Standard Error"
 date:   2019-03-30 23:59:59
 categories: Moments
 ---

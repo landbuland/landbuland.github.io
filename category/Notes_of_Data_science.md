@@ -1,7 +1,7 @@
 ---
 layout: posts_by_category
 categories: Notes of Data Science
-title: Moments
+title: Notes of Data Science
 permalink: /category/Notes of Data Science
 ---
 

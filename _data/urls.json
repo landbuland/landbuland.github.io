@@ -6,6 +6,12 @@
     "layout": "post"
   },
   {
+    "text": "Advanced Macro",
+    "url": "/AdvancedMacro",
+    "icon": "fa-sticky-note",
+    "layout": "post"
+  },
+  {
     "text": "About",
     "url": "/about/",
     "icon": "fa-comments"
@@ -24,16 +30,5 @@
     "text": "Github",
     "url": "https://github.com/landbuland/",
     "icon": "fa-github"
-  },
-  {
-    "text": "Test",
-    "url": "https://mp.weixin.qq.com/s/vjK4k7WfqnAkIMGxn3j4kg",
-    "icon": "fa-wechat",
-  },
-  {
-    "text": "XML Feed",
-    "url": "/feed.xml",
-    "icon": "fa-feed",
-    "target": _blank
-  },
+  }
 ]

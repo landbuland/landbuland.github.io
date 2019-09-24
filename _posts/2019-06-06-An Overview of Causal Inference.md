@@ -2,7 +2,7 @@
 layout: post
 title: "An Overview of Causal Inference"
 date:   2019-06-06 23:59:59
-categories: Data Analysis
+categories: Data_Analysis
 ---
 
 # An Overview of Causal Inference

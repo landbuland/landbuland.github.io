@@ -2,7 +2,7 @@
 layout: post
 title: "Is your nationality a secret?--evidence from 2016 ESS data and regularization method"
 date:   2019-04-14 23:59:59
-categories: Data Analysis
+categories: Data_Analysis
 ---
 # Is your nationality a secret?--evidence from 2016 ESS data and regularization method
 

@@ -2,7 +2,7 @@
 layout: post
 title: "A Neural Network Model for Predicting Nationalities when IIA Fails"
 date:   2019-05-18 23:59:59
-categories: Data Analysis
+categories: Data_Analysis
 ---
 
 # A Neural Network Model for Predicting Nationalities when IIA Fails

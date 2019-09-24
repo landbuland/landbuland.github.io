@@ -2,7 +2,7 @@
 layout: post
 title: "Independence of Irrelevant Alternatives (IIA) Assumptions and some Extentions"
 date:   2019-04-07 23:59:59
-categories: Data Analysis
+categories: Data_Analysis
 ---
 # Independence of Irrelevant Alternatives (IIA) Assumptions and some Extentions
 

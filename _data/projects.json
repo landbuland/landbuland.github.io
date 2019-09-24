@@ -2,21 +2,21 @@
 	{
 		"name": "Data Analysis for Economics",
 		"image": "DSE-2.png",
-		"url": "",
+		"url": "/category/Data_Analysis",
 		"date": "Mar 2019",
 		"tags": ["Economics","Data Analysis"]
 	},
 	{
 		"name": "Advanced Macroeconomics",
 		"image": "AMa.png",
-		"url": "",
+		"url": "/category/Advanced_Macro",
 		"date": "Sep 2019",
 		"tags": ["Economics"]
 	},	
 	{
 		"name": "经济思想史",
 		"image": "Adam_Smith.jpeg",
-		"url": "",
+		"url": "/category/HET",
 		"date": "Sept 2019",
 		"tags": ["Economics","History"]
 	}

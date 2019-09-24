@@ -2,7 +2,7 @@
 layout: post
 title: "Naïve Bayes Classifier and its realization with R"
 date:   2019-03-19 23:59:59
-categories: Moments
+categories: Data Analysis
 ---
 
 

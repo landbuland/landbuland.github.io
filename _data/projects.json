@@ -1,33 +1,23 @@
 [
 	{
-		"name": "What Affects the Passenger Flow of Beijing Subway",
-		"image": "bjsubway.png",
-		"url": "/projects/BJsubway/",
-		"date": "July 2017",
-		"tags": ["Mathmetical Statistics","MATLAB","Primary"]
-	},
-	{
-		"name": "A Game Theoretical Analysis of Optimal Offensive Strategy in Basketball",
-		"image": "basketball.jpg",
-		"url": "/projects/MSNE/",
-		"date": "Jan 2019",
-		"tags": ["Game Theory","R","STATA","Primary"]
-	},
-	
-	{
-		"name": "Is your Nationality a secret? evidence from 2016 ESS data and regulation methods",
-		"image": "worldmap.jpg",
-		"url": "https://landbuland.github.io/moments/2019/04/14/Homework-4-for-Data-Analysis.html",
-		"date": "April 2019",
-		"tags": ["Data Science","STATA","Primary"]
-	},
-	{
-		"name": "Notes on Data Science                                     .",
-		"image": "DSE.png",
-		"url": "/projects/DSE/",
+		"name": "Data Analysis for Economics",
+		"image": "DSE-2.png",
+		"url": "",
 		"date": "Mar 2019",
-		"tags": ["Data Science","R","STATA","Matlab","Primary"]
+		"tags": ["Economics","Data Analysis"]
+	},
+	{
+		"name": "Advanced Macroeconomics",
+		"image": "Ama.png",
+		"url": "",
+		"date": "Sep 2019",
+		"tags": ["Economics"]
+	},	
+	{
+		"name": "经济思想史",
+		"image": "Adam_Smith.jpeg",
+		"url": "",
+		"date": "Sept 2019",
+		"tags": ["Economics","History"]
 	}
-
-
 ]

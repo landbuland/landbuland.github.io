@@ -8,11 +8,11 @@ layout: default
 
     <div class="projects row">
     {% include project_tags.html %}
-    {% for i in site.data.projects %}
+    {% for i in site.data.notes %}
     <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well project-outer">
     		<div class="project-inner">
-    			<a href="/static/projects/{{ i.image }}" class="thickbox">
+    			<a href="/static/notes/{{ i.image }}" class="thickbox">
     			<div class="project-img bordered" style="background-image: url('/static/notes/{{ i.image }}');"></div>
                 </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}

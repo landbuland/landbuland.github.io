@@ -1,0 +1,33 @@
+[
+	{
+		"name": "What Affects the Passenger Flow of Beijing Subway",
+		"image": "bjsubway.png",
+		"url": "/projects/BJsubway/",
+		"date": "July 2017",
+		"tags": ["Mathmetical Statistics","MATLAB","Primary"]
+	},
+	{
+		"name": "A Game Theoretical Analysis of Optimal Offensive Strategy in Basketball",
+		"image": "basketball.jpg",
+		"url": "/projects/MSNE/",
+		"date": "Jan 2019",
+		"tags": ["Game Theory","R","STATA","Primary"]
+	},
+	
+	{
+		"name": "Is your Nationality a secret? evidence from 2016 ESS data and regulation methods",
+		"image": "worldmap.jpg",
+		"url": "https://landbuland.github.io/moments/2019/04/14/Homework-4-for-Data-Analysis.html",
+		"date": "April 2019",
+		"tags": ["Data Science","STATA","Primary"]
+	},
+	{
+		"name": "Notes on Data Science                                     .",
+		"image": "DSE.png",
+		"url": "/projects/DSE/",
+		"date": "Mar 2019",
+		"tags": ["Data Science","R","STATA","Matlab","Primary"]
+	}
+
+
+]

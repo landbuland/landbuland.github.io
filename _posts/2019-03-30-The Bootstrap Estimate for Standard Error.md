@@ -2,7 +2,7 @@
 layout: post
 title: "The Bootstrap Estimate for Standard Error"
 date:   2019-03-30 23:59:59
-categories: Moments
+categories: Data Analysis
 ---
 
 # The Bootstrap Estimate for Standard Error

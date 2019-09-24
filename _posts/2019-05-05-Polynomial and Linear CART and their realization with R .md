@@ -2,7 +2,7 @@
 layout: post
 title: "Polynomial and Linear CART and their realization with R "
 date:   2019-05-05 23:59:59
-categories: Data Analysis
+categories: Data_Analysis
 ---
 
 # Polynomial and Linear CART and their realization with R 

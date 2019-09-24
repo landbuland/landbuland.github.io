@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: project
 title: Notes
 permalink: /notes/
 ---

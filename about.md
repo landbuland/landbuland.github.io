@@ -3,15 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
- 
-这里是张子涵，XMU WISE IUEC本科三年级学生。
-这个网站搭建于2019年3月22日，目前主要用于计量学习、提交作业，以及记录一些生长时刻。
+
+Welcome!
+This is 张子涵，XMU WISE IUEC本科四年级学生。
+这个网站搭建于2019年3月22日，目前主要用于分类整理我在经济学求学过程中的一些笔记，搭建知识框架。
 
 这是一个不断探索的过程，我会逐步学习，更新它。
 
+最近更新的note将被列在[homepage](https://landbuland.github.io/)
 
-Data Science Analysis的作业和笔记将被上传至个人主页上: [MyGithub](https://landbuland.github.io/)
-
-除此以外，我将逐步上传一些曾经参与的 [Projects](https://landbuland.github.io/projects/)
+分类笔记将: [Note](https://landbuland.github.io/notes)
 
 For more details about me: [Resume](https://landbuland.github.io/resume/)

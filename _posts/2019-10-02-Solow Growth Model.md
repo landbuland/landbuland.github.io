@@ -16,7 +16,7 @@ categories: Advanced_Macro
 
 <iframe frameborder="yes" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=34341360&auto=1&height=66"></iframe>
 
-### 写在前面
+### 0.写在前面
 
 Basic Solow Model 是没有优化的模型，假定saving rate 是外生变量，这样做的好处是:
 
@@ -26,7 +26,7 @@ Basic Solow Model 是没有优化的模型，假定saving rate 是外生变量�
 
 3）framework and tools for studies in growth..
 
-### Assumptions and Model:
+### 1.Assumptions and Model:
 
 4 variables - output (*Y*), capital (*K*), labor(*L*), and "knowledge" or the "effectiveness of labor" (*A*).
 
@@ -83,7 +83,7 @@ $$
 Y=F(K, A L)=F_{K}(K, A L) K+F_{L}(K, A L) LY=F(K, A L)=F_{K}(K, A L) K+F_{L}(K, A L) L
 $$
 
-**Proof: according to theorem 2 above,**
+**Proof**: according to theorem 2 above,
 
 $$
 Y = F(K,AL) =F_K(K,AL)K+F_2(K,AL)AL\\since, F_L(K,AL)=\frac{\partial F(K,AL)}{\partial AL}\frac{\partial AL}{\partial L}=F_2(K,AL)A \quad\square
@@ -107,7 +107,7 @@ Obviously, the output per capita is a function of capital per capita.
 
 
 
-### Per capita form and Steady state
+### 2.Per capita form and Steady state
 
 denote:
 
@@ -137,7 +137,7 @@ some growth rate A: g L:n Y/L g Y:n+g
 
 
 
-### Consumption impact$$\rightarrow$$ golden rule
+### 3. Consumption impact$$\rightarrow$$ golden rule
 
 $$
 c^{*}=f\left(k^{*}\right)-(n+g+\delta) k^{*}
@@ -165,7 +165,7 @@ $$
 
 
 
-### Elasticity
+### 4. Elasticity
 
 根据稳态的equation, 求$$\partial k^*/\part{s}$$
 
@@ -218,7 +218,7 @@ $$
 
 
 
-### Speed of convergence
+### 5. Speed of convergence
 
 结论:
 
@@ -250,7 +250,7 @@ $$
 
 
 
-### 解释和补充
+### 6. 解释和补充
 
 - Solow Growth Model implies the divergence in various countries could be attributed to two different factors, including capital per capita (K/L) and labor efficiency. However, in reality, there's no evidence supporting that gaps of capital per labor could lead to such huge differences between rich countries and the poor ones. Efficiency is a better explanation of income divergence.
 

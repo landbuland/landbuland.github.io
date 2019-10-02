@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solow Growth Model"
-date:   2019-10-02 23:59:59
+date:   2019-10-01 23:59:59
 categories: Advanced_Macro
 ---
 
@@ -202,7 +202,7 @@ $$
 然后可以计算稳态收入水平对saving rate 的弹性。
 
 $$
-\begin{aligned}\frac{\triangle y^*/y^*}{\triangle s/s}= \frac{s}{y^{*}} \frac{\partial y^{*}}{\partial s} &=\frac{s}{f\left(k^{*}\right)} \frac{f^{\prime}\left(k^{*}\right) f\left(k^{*}\right)}{(n+g+\delta)-s f^{\prime}\left(k^{*}\right)} \\ &=\frac{(n+g+\delta) k^{*} f^{\prime}\left(k^{*}\right)}{f\left(k^{*}\right)\left[(n+g+\delta)-(n+g+\delta) k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)\right]} \\ &=\frac{k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)}{1-\left[k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)\right]} \end{aligned}
+\begin{aligned}\frac{\Delta y^*/y^*}{\Delta s/s}= \frac{s}{y^{*}} \frac{\partial y^{*}}{\partial s} &=\frac{s}{f\left(k^{*}\right)} \frac{f^{\prime}\left(k^{*}\right) f\left(k^{*}\right)}{(n+g+\delta)-s f^{\prime}\left(k^{*}\right)} \\ &=\frac{(n+g+\delta) k^{*} f^{\prime}\left(k^{*}\right)}{f\left(k^{*}\right)\left[(n+g+\delta)-(n+g+\delta) k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)\right]} \\ &=\frac{k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)}{1-\left[k^{*} f^{\prime}\left(k^{*}\right) / f\left(k^{*}\right)\right]} \end{aligned}
 $$
 
 注意，$$\frac{dy}{dk^*}\frac{k^*}{y}=\frac{k^* f'(k^*)}{f(k^*)}=\alpha_k$$

@@ -242,7 +242,7 @@ $$
 \begin{aligned}\left.\frac{\partial \dot{k}(k)}{\partial k}\right|_{k=k^{*}} &=\left[s f^{\prime}\left(k^{*}\right)-(n+g+\delta)\right] \\ &=\frac{(n+g+\delta) k^{*} f^{\prime}\left(k^{*}\right)}{f\left(k^{*}\right)}- (n+g+\delta)\\ &=\left[\alpha_{k}-1\right](n+g+\delta) \quad\square\end{aligned} 
 $$
 
-**Note that ** $$\frac{\partial \dot{k}(k)}{\partial k}<0$$  since $$\alpha $$ is usually expected to less than 1.
+**Note that** $$\frac{\partial \dot{k}(k)}{\partial k}<0$$  since $$\alpha $$ is usually expected to less than 1.
 
 同样可以证明，$$y_t$$ 也是按照相同的速率收敛到稳态。
 

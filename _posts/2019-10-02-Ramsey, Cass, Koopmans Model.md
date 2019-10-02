@@ -1,4 +1,3 @@
-# Chap 2 ,Part A - Ramsey-Cass-Koopmans Model 
 ---
 layout: post
 title: "RCK Model"
@@ -6,6 +5,7 @@ date:   2019-10-02 23:59:59
 categories: Advanced_Macro
 ---
 
+# Chap 2 ,Part A - Ramsey-Cass-Koopmans Model 
 
 ## 0. 写在前面
 

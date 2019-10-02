@@ -151,7 +151,7 @@ $$
 
 首先注意，$$k^*=k^*(n,g,\delta,s)$$，在Solow Growth Model中假设它们是exogenous的
 
-由于$$\frac{\part k^*}{\part s}$$ 是positive的，所以$$\frac{\partial c^{*}}{\partial s}$$ 的正负号取决于前半部分的符号，也就是说，资本的边际生产率大于折旧率，人口增长和技术进步率的和的时候，提升saving rate 对稳态时的消费水平的边际效益是正的。
+由于$$\frac{\partial k^*}{\partial s}$$ 是positive的，所以$$\frac{\partial c^{*}}{\partial s}$$ 的正负号取决于前半部分的符号，也就是说，资本的边际生产率大于折旧率，人口增长和技术进步率的和的时候，提升saving rate 对稳态时的消费水平的边际效益是正的。
 
 maximize the consumption and then get the golden rule 
 
@@ -167,7 +167,7 @@ $$
 
 ### 4. Elasticity
 
-根据稳态的equation, 求$$\partial k^*/\part{s}$$
+根据稳态的equation, 求$$\partial k^*/\partial{s}$$
 
 since in the steady state,
 
@@ -233,7 +233,7 @@ $$
 然后根据Taylor Expansion在 $$k^*$$ 处的展开， 可以得到，
 
 $$
-\dot k(k)\approx\dot k(k^*)+\frac{\part \dot k(k^*)}{\part k}(k-k^*)
+\dot k(k)\approx\dot k(k^*)+\frac{\partial \dot k(k^*)}{\partial k}(k-k^*)
 $$
 
 其中，稳态时$$\dot k = 0$$，所以convergence speed 实际上就是$$\frac{\partial \dot{k}\left(k^{*}\right)}{\partial k}$$ 

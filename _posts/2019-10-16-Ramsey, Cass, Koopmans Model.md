@@ -151,12 +151,12 @@ therefore, MPK could be denoted as:
 $$
 \begin{array}
 {l}
-\textsf{MPK:}=\frac{\part F(K,AL)}{\part K}=\frac{\part f(K/AL)}{\part K}AL = f'(k)
+\textsf{MPK:}=\frac{\partial F(K,AL)}{\partial K}=\frac{\partial f(K/AL)}{\partial K}AL = f'(k)
 \\
 
 {\textsf{MPL}:
 \begin{aligned}
-\frac{\partial F(K, A L)}{\part L}=\frac{\partial f(K / A L)}{\partial L} A L&= ALf'(k)(-k)+Af(k) \\ &= A(f(k)-k f^{\prime}(k))
+\frac{\partial F(K, A L)}{\partial L}=\frac{\partial f(K / A L)}{\partial L} A L&= ALf'(k)(-k)+Af(k) \\ &= A(f(k)-k f^{\prime}(k))
 \end{aligned}}
 \end{array}
 

@@ -78,6 +78,7 @@ $$
 Gumbel Distribution = Extreme Value Distribution.
 
 它对 $$e$$ 的分布有如下的 Cumulative Distribution Function:
+
 $$
 \mathcal{F}(e ; \mu, \sigma)=\exp \left\{-\exp \left(-\frac{e-\mu}{\sigma}\right)\right\}
 $$
@@ -87,9 +88,11 @@ $$ \mu$$ : Location parameter (Like mean in Gaussian)
 $$\sigma$$ : scale parameter (Like Standard error in Gaussian)
 
 For $$ e \sim \text { Gumbel }(\mu, \sigma) $$
+
 $$
 \begin{aligned} E(e) &=\mu+\sigma \gamma_{e} \\ \operatorname{Var}(e) &=\frac{\pi^{2}}{6} \sigma^{2} \end{aligned}
 $$
+
 where $$\gamma_e \approx 0.577 $$ is the Euler constant. (Proof...)
 
 

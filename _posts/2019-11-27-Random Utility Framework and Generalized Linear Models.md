@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Random Utility Framework and Generalized Linear Models"
+date:   2019-11-27 23:59:59
+categories: Data_Analysis
+---
+
 # A Note on Random Utility Framework and Generalized Linear Models
 
 ## 1. Random Utility Framework, Logit and Probit
@@ -12,12 +19,15 @@ Characteristics: $$x_{ij}$$
 $$
 U_{ij}=f_j(x_{ij})+e_{ij}
 $$
+
 where,
+
 $$
 x_i = s_i +z_{ij}
 \\
  e_i \sim^{i . i . d} \mathcal{F}_{e}(.)
 $$
+
 不同的$$f(x_{ij})$$ 和 $$e_{ij}$$ 设计可以推出不同的discrete choice model。
 
 怎么推的？$$\rightarrow$$ Conditional choice probability
@@ -104,7 +114,7 @@ $$
 
 这个式子的意义在于，假设e属于Gumbel 分布和其属于正态分布的差别不大。
 
-对`Logistic model:`​
+对`Logistic model:`
 
 
 $$
@@ -192,11 +202,15 @@ The likelihood function:
 $$
 L(\beta | x, Y)=\prod_{i=1}^{m} \frac{e^{k_{i} \beta x_{i}^{\prime}} e^{-e^{\beta x_{i}^{\prime}}}}{k_{i} !}
 $$
+
 Take the logarithm, we get the log-likelihood function.
+
 $$
 \text{log }L(\beta| x,Y) = -\sum_i^m e^{\beta x_i^\prime}+\sum_i^mk_i \beta x^\prime_i-\sum \text{log}(k_i)
 $$
+
 Take derivative with respect to $$\beta$$, 
+
 $$
 \frac{\partial \log L(\beta | x, Y)}{\partial \beta}=0
 $$

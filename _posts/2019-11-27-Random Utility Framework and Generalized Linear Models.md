@@ -69,6 +69,10 @@ $$
 
 怎么从Gumbel distribution 推出 Multinomial Logistic Model？$$\downarrow$$
 
+
+------
+
+
 ## 2. Extreme Value Distribution and Logit model
 
 Gumbel Distribution = Extreme Value Distribution.
@@ -77,6 +81,7 @@ Gumbel Distribution = Extreme Value Distribution.
 $$
 \mathcal{F}(e ; \mu, \sigma)=\exp \left\{-\exp \left(-\frac{e-\mu}{\sigma}\right)\right\}
 $$
+
 $$ \mu$$ : Location parameter (Like mean in Gaussian)
 
 $$\sigma$$ : scale parameter (Like Standard error in Gaussian)
@@ -136,6 +141,10 @@ Let $$x_{i}=\left\{x_{i j}\right\}_{j=1}^{J} \text { and } V_{i j}=x_{i j}^{\pri
 $$
 \begin{aligned} \operatorname{Pr}\left(y_{i}=j | x_{i}\right) &=\operatorname{Pr}\left(V_{i j}+e_{i j}>V_{i \ell}+e_{i \ell} \forall \ell \neq j | x_{i}\right) \\ &=\operatorname{Pr}\left(e_{i \ell}<V_{i j}-V_{i \ell}+e_{i j} \forall \ell \neq j | x_{i}\right) \\ &=\int\left[\prod_{\ell \neq j} e^{-\left(v_{i j}-V_{i \ell}+e_{j}\right)}\right] e^{-e_{i j}} e^{-e^{-e_{i j}}} d e_{i j} \\ &=\frac{\exp \left(V_{i j}\right)}{\sum_{\ell=1}^{J} \exp \left(V_{i \ell}\right)} \end{aligned}
 $$
+
+
+
+--------
 
 
 ## 3. Poisson Regression
@@ -222,6 +231,6 @@ However, the equation above doesn't have an analytical solution, we can only app
 
 ## Reference
 
-[1] Jiaming Mao, [Classification and Discrete Choice model]{https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf}
+[1] Jiaming Mao, [Classification and Discrete Choice model](https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf)
 
-[2] Wikipedia, [Poisson Regression]{https://en.wikipedia.org/wiki/Poisson_regression}.
+[2] Wikipedia, [Poisson Regression](https://en.wikipedia.org/wiki/Poisson_regression).

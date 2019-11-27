@@ -220,3 +220,8 @@ We can get the MLE estimator of parameters in `Poisson Regression`.
 
 However, the equation above doesn't have an analytical solution, we can only apply convex optimization to find the optimal (approximated) value of $$\beta$$.
 
+## Reference
+
+[1] Jiaming Mao, [Classification and Discrete Choice model]{https://jiamingmao.github.io/data-analysis/assets/Lectures/Classification_and_Discrete_Choice_Models.pdf}
+
+[2] Wikipedia, [Poisson Regression]{https://en.wikipedia.org/wiki/Poisson_regression}.

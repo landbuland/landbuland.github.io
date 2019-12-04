@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Artuç,et al.(2010),Trade Shocks and Labor Adjustment A Structural Empirical Approach"
+date:   2019-12-04 23:59:59
+categories: Data_Analysis
+---
+
+
+
+
 # Artuç, Chaudhuri and Mclaren - Trade Shocks and Labor Adjustment: A Structural Empirical Approach (2010)
 
 ​		这篇文章探究的主要问题是贸易解放(Trade Liberalization) 等贸易政策变化 (Trade Shock) 对工人福利的影响。一个主要贡献在于文章对Dynamic DIscrete Choice Model (DDCM) 提出了一个简便且成本低的计算方法，不需要将该模型中每一期的Value function 计算出来。主要的特点如下：

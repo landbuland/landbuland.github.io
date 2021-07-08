@@ -6,10 +6,9 @@ permalink: /about/
 
 Welcome!
 
-This is 张子涵，XMU WISE IUEC本科四年级学生。
-这个网站搭建于2019年3月22日，目前主要用于分类整理我在经济学求学过程中的一些笔记，搭建知识框架。
+This is 张子涵，XMU WISE IUEC 2020届毕业生。 XMU WISE 2020级 直博生，major in `数量经济学`.
+这个网站搭建于2019年3月22日，目前主要用于分类整理的一些笔记。
 
-这是一个不断探索的过程，我会逐步学习，更新它。
 
 最近更新的note将被列在[Recent](https://landbuland.github.io/)
 

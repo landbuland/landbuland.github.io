@@ -9,7 +9,7 @@ categories: Data_Analysis
 
 
 
-There are five top English journals in Economics, including the American Economic Review (AER), the Quarterly Journal of Economics (QJE), Econometrica (ECA), Journal of Political Economics (JPE) and Review of Economic Studies (RES). They are the most authoritative ones in the field of economics, and widely recognized by  economists. Moreover, recent articles published on these journals are often regarded as the leading researches in each sub field of economics. As a result, catching up with what these journals favors now will be beneficial to econ researchers and students to closely put themselves together with the hot topics, and then, generating interesting research questions. However, it may be hard to read the articles one by one after each volume issued since there are a greater number of articles published each year. Hence, some techniques like web crawler can be helpful to get the topics of the recent articles. 
+There are five top English journals in Economics, including the American Economic Review (AER), the Quarterly Journal of Economics (QJE), Econometrica (ECA), Journal of Political Economics (JPE) and Review of Economic Studies (RES). They are the most authoritative ones in the field of economics, and widely recognized by  economists. Moreover, recent articles published on these journals are often regarded as the leading researches in each sub field of economics. As a result, catching up with what these journals favor now will be beneficial to econ researchers and students to closely put themselves together with the hot topics, and then, generating interesting research questions. However, it may be hard to read the articles one by one after each volume issued since there are a greater number of articles published each year. Hence, some techniques like web crawler can be helpful to get the topics of the recent articles. 
 
 Here I provide a web crawler based on `Python` for the basic information of these journal articles. With this crawler, it is quite easy to scrape the headers, authors and abstracts of top journal articles for their websites. 
 
@@ -203,11 +203,11 @@ filename.close()  # txt file
 
 With the abstracts, we are able to draw a word cloud to see what are the most popular topics or fields that AER favors. Later I will discuss how to make this world cloud based on text data.
 
-![wordcloud_aer](E:\课程资料备份\DigitalEconomyDecisionAnalytics-master\project_LDA\Output & Wordcloud\wordcloud_aer.png)
+![wordcloud_aer](/static/img/wordcloud_aer.png)
 
 
 
-## 4. Code for other articles
+## 4. Code for other journals
 
-You may find it via my Github repository.
+You may find it via my [Github repository](/assets/Journal_crawler).
 

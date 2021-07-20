@@ -16,8 +16,15 @@
 	{
 		"name": "经济思想史",
 		"image": "Adam_Smith.jpeg",
-		"url": "/category/HET",
+		"url": "/category/History_of_EconThought",
 		"date": "Sept 2019",
+		"tags": ["Economics","History"]
+	},
+	{
+		"name": "Code Notebook",
+		"image": "dinasour.jpeg",
+		"url": "/category/Code_notebook",
+		"date": "July 2021",
 		"tags": ["Economics","History"]
 	}
 ]

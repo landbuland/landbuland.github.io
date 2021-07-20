@@ -209,5 +209,5 @@ With the abstracts, we are able to draw a word cloud to see what are the most po
 
 ## 4. Code for other journals
 
-You may find it via my [Github repository](/assets/Journal_crawler).
+You may find it via my [Github repository](https://github.com/landbuland/landbuland.github.io/tree/master/assets/Journal_crawler).
 

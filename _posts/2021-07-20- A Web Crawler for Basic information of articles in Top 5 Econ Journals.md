@@ -2,7 +2,7 @@
 layout: post
 title: "A Web Crawler for Basic information of articles in Top 5 Econ Journals."
 date:   2021-07-20 23:59:59
-categories: Data_Analysis
+categories: Code_notebook
 ---
 
 # A Web Crawler for Basic information of articles in Top 5 Econ Journals.

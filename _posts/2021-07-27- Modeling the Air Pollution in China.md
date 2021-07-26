@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modeling the Air Pollution in China -- Based on Gaussian Process"
-date:   2019-11-27 23:59:59
+date:   2021-07-27 23:59:59
 categories: Data_Analysis
 ---
 

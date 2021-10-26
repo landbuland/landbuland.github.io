@@ -2,7 +2,7 @@
 layout: post
 title: "Artuç,et al.(2010),Trade Shocks and Labor Adjustment A Structural Empirical Approach"
 date:   2019-12-04 23:59:59
-categories: Data_Analysis
+categories: Paper_Notebook
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "一个行为模型的结构化估计：动态离散选择模型及应用（1）"
 date:   2021-10-05 23:59:59
-categories: Data_Analysis
+categories: Paper_Notebook
 ---
 
 

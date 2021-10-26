@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Bayer, 2007, A Unified framework for measuring preferences for schools and neighborhoods"
+date:   2021-10-05 23:59:59
+categories: Paper_Notebook
+---
+
 # Bayer,2007,A Unified framework for measuring preferences for schools and neighborhoods
 
 Published on JPE. [Paper](https://ideas.repec.org/a/ucp/jpolec/v115y2007i4p588-638.html)

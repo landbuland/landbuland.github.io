@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bayer, 2007, A Unified framework for measuring preferences for schools and neighborhoods"
-date:   2021-10-05 23:59:59
+date:   2021-10-26 23:59:59
 categories: Paper_Notebook
 ---
 

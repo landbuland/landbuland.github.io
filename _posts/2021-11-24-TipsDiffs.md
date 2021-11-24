@@ -1,3 +1,10 @@
+---
+layout: post
+title: "3 Tips Tips of Checking differences of scripts in STATA"
+date:   2021-07-20 23:59:59
+categories: Code_notebook
+---
+
 # 3 Tips of Checking differences of scripts in STATA
 
 - 生成日志文件人工比较

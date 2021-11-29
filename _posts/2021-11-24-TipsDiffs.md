@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Tips Tips of Checking differences of scripts in STATA"
-date:   2021-07-20 23:59:59
+date:   2021-11-24 23:59:59
 categories: Code_notebook
 ---
 

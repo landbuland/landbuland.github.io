@@ -17,4 +17,4 @@ the pollution level experiences dierent hour trend between northern and souther
 cities, and northern cities may experience more sever pollution in aggregate.
 
 ## Full version
-You may find the [full text]({{site.baseurl}}/assets/Modeling_AirPollution.pdf) and [slides]({{site.baseurl}}/assets/ModelingAP_slides.pdf).
+ [full text]({{site.baseurl}}/assets/Modeling_AirPollution.pdf) and [slides]({{site.baseurl}}/assets/ModelingAP_slides.pdf).

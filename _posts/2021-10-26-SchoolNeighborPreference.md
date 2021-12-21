@@ -9,6 +9,8 @@ categories: Paper_Notebook
 
 Published on JPE. [Paper](https://ideas.repec.org/a/ucp/jpolec/v115y2007i4p588-638.html)
 
+My [slides]().
+
 ### Conclusion about findings:
 
 1. First, households are willing to pay less than 1 percent

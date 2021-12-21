@@ -9,7 +9,7 @@ categories: Paper_Notebook
 
 Published on JPE. [Paper](https://ideas.repec.org/a/ucp/jpolec/v115y2007i4p588-638.html)
 
-My [slides]().
+My [slides]({{site.baseurl}}/assets/Bayer2007Slides.pdf).
 
 ### Conclusion about findings:
 

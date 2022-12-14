@@ -13,7 +13,6 @@ categories: Code_notebook
 
 # R demo - Using Baidu API to identify the number of separate collegecampuses in China
 
-## Initialization
 
 In this note, I use R and Baidu Map API service to identify all separate
 campuses of Chinese universities. First, we can find the namelist of

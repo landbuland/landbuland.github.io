@@ -2,7 +2,7 @@
 
 layout: post
 title: "Stata tips - Outreg2"
-date:   2022-10-12 23:59:59
+date:   2022-11-01 23:59:59
 categories: Code_notebook
 
 ---

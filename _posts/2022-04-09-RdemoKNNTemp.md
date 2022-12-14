@@ -1,11 +1,11 @@
 ---
-
 layout: post
 title: "R code - Predict temperature with a KNN"
 date:   2022-04-09 23:59:59
 categories: Code_notebook
-
 ---
+
+# R code - Predict temperature with a KNN
 
 Use KNN to fit the temperature variation in China. 
 

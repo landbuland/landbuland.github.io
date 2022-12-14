@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "R demo - Using Baidu API to identify the number of separate collegecampuses in China"
+title: "R demo - Using Baidu API to identify the number of separate college campuses in China"
 date:   2022-06-18 23:59:59
 categories: Code_notebook
 

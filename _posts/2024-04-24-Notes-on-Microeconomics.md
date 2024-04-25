@@ -8,7 +8,35 @@ categories: Advanced_Micro
 # Micro Notes
 
 04/24/2024
+-  Micro I: Haven't finished uploading notes on Micro I.
+-  Micro II: The description of examples in the game theory section is incomplete, and there is a missing portion of notes in the signaling part.
 
+## Micro I
+ - Lectures:
+[Topic 1_Preference and Utility]({{site.baseurl}}/assets/AdvMicro/Topic 1_Preference and Utility.html)
+
+[Topic 2_Consumer Theory]({{site.baseurl}}/assets/AdvMicro/Topic 2_Consumer theory.html)
+
+[Topic 3_Welfare]({{site.baseurl}}/assets/AdvMicro/Topic 3_Welfare.html)
+
+[Topic 4_Revealed Preference]({{site.baseurl}}/assets/AdvMicro/Topic 4_Revealed preference.html)
+
+[Topic 5_Uncertainty]({{site.baseurl}}/assets/AdvMicro/Topic 5_Uncertainty.html)
+
+[Topic 6_Producer Theory]({{site.baseurl}}/assets/AdvMicro/Topic 6_Producer Theory.html)
+
+[Topic 11_Principle Agent Theory]({{site.baseurl}}/assets/AdvMicro/Topic 11_ Principal agent problem.html)
+
+
+ - TA session (Exercises):
+
+[Part 1]({{site.baseurl}}/assets/AdvMicro/TA session 701.html)
+
+[Part 2]({{site.baseurl}}/assets/AdvMicro/701 TA session 2.html)
+
+[Part 3]({{site.baseurl}}/assets/AdvMicro/701 TA session 3.html)
+
+## Micro II
 
 
 [General Equilibrium]({{site.baseurl}}/assets/AdvMicro/General equilibrium.html)

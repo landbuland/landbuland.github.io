@@ -11,12 +11,12 @@ categories: Advanced_Micro
 
 
 
-[General Equilibrium]({{site.baseurl}}/assets/AdvMicro/General Equilibrium.html)
+[General Equilibrium]({{site.baseurl}}/assets/AdvMicro/General equilibrium.html)
 
 [Social Choice]({{site.baseurl}}/assets/AdvMicro/Social Choice.html)
 
 [Game Theory]({{site.baseurl}}/assets/AdvMicro/Game Theory.html)
 
-[Mechanism Design]({{site.baseurl}}/assets/AdvMicro/Mechanism Design.html)
+[Mechanism Design]({{site.baseurl}}/assets/AdvMicro/Mechanism design.html)
 
-[Matching Theory]({{site.baseurl}}/assets/AdvMicro/Matching Markets.html)
+[Matching Theory]({{site.baseurl}}/assets/AdvMicro/Matching markets.html)

@@ -6,7 +6,7 @@ permalink: /about/
 
 Welcome!
 
-This is 张子涵，XMU WISE IUEC 2020届毕业生。 XMU WISE 2020级 直博生，major in `数量经济学`.
+This is 张子涵，XMU WISE IUEC 2020届毕业生。
 这个网站搭建于2019年3月22日，目前主要用于分类整理阅读和学习过程中的一些笔记。
 
 

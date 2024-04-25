@@ -27,7 +27,7 @@ categories: Advanced_Micro
 
 [Topic 6_Producer Theory]({{site.baseurl}}/assets/AdvMicro/Topic 6_Producer Theory.html)
 
-[Topic 11_Principle Agent Theory]({{site.baseurl}}/assets/AdvMicro/Topic 11_ Principal agent problem.html)
+[Topic 11_Principle Agent Problem]({{site.baseurl}}/assets/AdvMicro/Topic 11_ Principal agent problem.html)
 
 
  - TA session (Exercises):

@@ -12,7 +12,9 @@ categories: Advanced_Micro
 -  Micro II: The description of examples in the game theory section is incomplete, and there is a missing portion of notes in the signaling part.
 
 ## Micro I
+
  - Lectures:
+
 [Topic 1_Preference and Utility]({{site.baseurl}}/assets/AdvMicro/Topic 1_Preference and Utility.html)
 
 [Topic 2_Consumer Theory]({{site.baseurl}}/assets/AdvMicro/Topic 2_Consumer theory.html)

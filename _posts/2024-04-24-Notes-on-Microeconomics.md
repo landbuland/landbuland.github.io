@@ -40,6 +40,7 @@ categories: Advanced_Micro
 
 ## Micro II
 
+- Notes:
 
 [General Equilibrium]({{site.baseurl}}/assets/AdvMicro/General equilibrium.html)
 
@@ -50,3 +51,7 @@ categories: Advanced_Micro
 [Mechanism Design]({{site.baseurl}}/assets/AdvMicro/Mechanism design.html)
 
 [Matching Theory]({{site.baseurl}}/assets/AdvMicro/Matching markets.html)
+
+- Cheating sheets:
+
+[For the final]({{site.baseurl}}/assets/AdvMicro/702_Final_cheat_sheet.pdf)

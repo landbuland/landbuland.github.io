@@ -13,9 +13,9 @@ categories: Advanced_Micro
 
 ## Past Prelim Exams 
 
-[Micro I]({{site.baseurl}}/assets/AdvMicro/Micro I Question Sets.html)
+[Micro I problem set]({{site.baseurl}}/assets/AdvMicro/Micro I Question Sets.html)
 
-[Micro I]({{site.baseurl}}/assets/AdvMicro/Micro II Question Sets.html)
+[Micro II problem set]({{site.baseurl}}/assets/AdvMicro/Micro II Question Sets.html)
 
 
 

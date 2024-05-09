@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes on Microeconomics"
-date:   2024-05-09 23:59:59
+date:   2024-05-08 23:59:59
 categories: Advanced_Micro
 ---
 

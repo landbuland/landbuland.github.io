@@ -11,6 +11,14 @@ categories: Advanced_Micro
 -  Micro I: Haven't finished uploading notes on Micro I.
 -  Micro II: The description of examples in the game theory section is incomplete, and there is a missing portion of notes in the signaling part.
 
+## Past Prelim Exams 
+
+[Micro I]({{site.baseurl}}/assets/AdvMicro/Micro I Question Sets.html)
+
+[Micro I]({{site.baseurl}}/assets/AdvMicro/Micro II Question Sets.html)
+
+
+
 ## Micro I
 
  - Lectures:

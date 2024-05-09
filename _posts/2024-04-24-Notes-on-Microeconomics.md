@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes on Microeconomics"
-date:   2024-04-24 23:59:59
+date:   2024-05-09 23:59:59
 categories: Advanced_Micro
 ---
 
@@ -15,7 +15,7 @@ categories: Advanced_Micro
 
 [Micro I problem set]({{site.baseurl}}/assets/AdvMicro/Micro I Question Sets.html)
 
-[Micro II problem set]({{site.baseurl}}/assets/AdvMicro/Micro II Question Sets.html)
+[Micro II problem set]({{site.baseurl}}/assets/AdvMicro/Micro II Question sets.html)
 
 
 

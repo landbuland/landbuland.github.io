@@ -7,6 +7,8 @@ categories: Advanced_Micro
 
 # Micro Notes
 
+Recent update: 05/17/2024
+
 04/24/2024
 -  Micro I: Haven't finished uploading notes on Micro I.
 -  Micro II: The description of examples in the game theory section is incomplete, and there is a missing portion of notes in the signaling part.

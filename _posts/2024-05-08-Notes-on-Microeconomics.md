@@ -25,7 +25,7 @@ Recent update: 05/22/2024
 
  - Notes:
 
-[A General Review Sketch]({{site.baseurl}}/assets/AdvMicro/Micro review sketch.html)
+[Review Outline]({{site.baseurl}}/assets/AdvMicro/Micro review sketch.html)
 
 [Topic 1_Preference and Utility]({{site.baseurl}}/assets/AdvMicro/Topic 1_Preference and Utility.html)
 

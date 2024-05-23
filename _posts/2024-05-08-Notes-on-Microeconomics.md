@@ -7,7 +7,7 @@ categories: Advanced_Micro
 
 # Micro Notes
 
-Recent update: 05/17/2024
+Recent update: 05/22/2024
 
 04/24/2024
 -  Micro I: Haven't finished uploading notes on Micro I.
@@ -23,7 +23,9 @@ Recent update: 05/17/2024
 
 ## Micro I
 
- - Lectures:
+ - Notes:
+
+[A General Review Sketch]({{site.baseurl}}/assets/AdvMicro/Micro review sketch.html)
 
 [Topic 1_Preference and Utility]({{site.baseurl}}/assets/AdvMicro/Topic 1_Preference and Utility.html)
 

@@ -7,7 +7,7 @@ categories: Advanced_Micro
 
 # Micro Notes
 
-Recent update: 05/28/2024
+Recent update: 05/29/2024
 
 04/24/2024
 -  Micro I: Haven't finished uploading notes on Micro I.

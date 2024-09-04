@@ -11,7 +11,7 @@ Alberto Abadie, Susan Athey, Guido W. Imbens, Jeffrey M. Wooldridge
 
 QJE, 2023
 
-[Slides]({{site.baseurl}}/assets/AAIW_cluster_se.pdf)
+[RR report]({{site.baseurl}}/assets/AAIW_cluster_se.pdf)
 
 ## Summary
 

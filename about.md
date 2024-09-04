@@ -6,12 +6,13 @@ permalink: /about/
 
 Welcome!
 
-This is 张子涵，XMU WISE IUEC 2020届毕业生。
-这个网站搭建于2019年3月22日，目前主要用于分类整理阅读和学习过程中的一些笔记。
+My name is Zihan Zhang, an economic PhD student.
+
+I originally built this website on March 22, 2019, during my time as an undergraduate at Xiamen University. The main motivation for creating it was to earn extra credit in my applied microeconometrics course. Our instructor, Jiaming, offered additional points for submitting assignments through personal websites, so I took the opportunity to post my work here. I now use this website as my blog, where I occasionally update it by uploading notes and other content.
 
 
-最近更新的note将被列在[Recent](https://landbuland.github.io/)
+I sometimes upload new updates here: [Recent](https://landbuland.github.io/)
 
-分类笔记: [Note](https://landbuland.github.io/notes)
+See my notebooks: [Note](https://landbuland.github.io/notes)
 
-For more details about me: [Resume](https://landbuland.github.io/resume/)
+See my CV here: [Resume](https://landbuland.github.io/resume/)

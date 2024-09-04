@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Abadie et al. (2023, QJE) When should you adjust standard errors for clustering?"
-date:   2024-09-04 23:59:59
+date:   2024-09-03 23:59:59
 categories: Paper_Notebook
 ---
 
@@ -10,6 +10,8 @@ categories: Paper_Notebook
 Alberto Abadie, Susan Athey, Guido W. Imbens, Jeffrey M. Wooldridge
 
 QJE, 2023
+
+[Slides]({{site.baseurl}}/assets/AAIW_cluster_se.pdf)
 
 ## Summary
 

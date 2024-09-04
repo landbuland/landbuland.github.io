@@ -8,6 +8,7 @@ categories: Paper_Notebook
 # Do Environmetal Markes Improve on Open Access?
 
 Alberto Abadie, Susan Athey, Guido W. Imbens, Jeffrey M. Wooldridge
+
 QJE, 2023
 
 ## Summary

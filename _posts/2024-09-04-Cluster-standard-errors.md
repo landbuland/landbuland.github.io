@@ -5,7 +5,7 @@ date:   2024-09-03 23:59:59
 categories: Paper_Notebook
 ---
 
-# Do Environmetal Markes Improve on Open Access?
+# Abadie et al. (2023, QJE) When should you adjust standard errors for clustering?
 
 Alberto Abadie, Susan Athey, Guido W. Imbens, Jeffrey M. Wooldridge
 

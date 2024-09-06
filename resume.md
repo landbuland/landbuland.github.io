@@ -7,5 +7,5 @@ permalink: /resume/
 
 
 
-[^_^]:"[CV_zihan]({{site.baseurl}}/assets/CV/CV_zzh_July2024-4.pdf)."
+[CV_zihan]({{site.baseurl}}/assets/CV/CV_zzh_July2024-4.pdf).
 

@@ -15,5 +15,5 @@ Definitness of matrix, Kunn-Tucker condition, Envelope theorem.
 
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 1.html)
 
-- Manuscript
+- [Manuscript]({{site.baseurl}}/assets/microlab/Note Sep 6, 2024.pdf)
 

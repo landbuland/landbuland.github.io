@@ -9,7 +9,7 @@ categories: Advanced_Micro
 
 Recent update: 09/06/2024
 
-## lab 1, Sep. 6 
+### lab 1, Sep. 6 
 
 Definitness of matrix, Kunn-Tucker condition, Envelope theorem.
 

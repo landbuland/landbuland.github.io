@@ -21,7 +21,7 @@ Definitness of matrix, Kunn-Tucker condition.
 
 ### lab 2. Sep.13
 
-Envelope theorem, 
+Envelope theorem, Marshallian demand, Recovering the utility, CES utility function.
 
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 2.html)
 

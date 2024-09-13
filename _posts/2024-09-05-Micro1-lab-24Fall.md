@@ -9,7 +9,7 @@ categories: Advanced_Micro
 
 Recent update: 09/13/2024
 
-My office hour is from 2 - 3 PM at Nelson 4119. 
+My office hour: W 2 - 3 PM and F 10 - 11 AM at Nelson 4119. 
 
 ### lab 1, Sep.6 
 

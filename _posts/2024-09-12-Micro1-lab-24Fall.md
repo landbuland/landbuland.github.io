@@ -25,4 +25,4 @@ Envelope theorem, Marshallian demand, Recovering the utility, CES utility functi
 
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 2.html)
 
-- Manuscript
+- [Manuscript]({{site.baseurl}}/assets/microlab/Note Sep 13, 2024.pdf)

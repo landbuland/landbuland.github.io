@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Micro 1 lab 24 Fall"
-date:   2024-09-12 23:59:59
+date:   2024-10-04 00:00:59
 categories: Advanced_Micro
 ---
 
 # Micro 1 lab 24 Fall
 
-Recent update: 09/13/2024
+Recent update: 10/04/2024
 
 My office hour: W 2 - 3 PM and F 10 - 11 AM at Nelson 4119. 
 
@@ -26,3 +26,13 @@ Envelope theorem, Marshallian demand, Recovering the utility, CES utility functi
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 2.html)
 
 - [Manuscript]({{site.baseurl}}/assets/microlab/Note Sep 13, 2024.pdf)
+
+### lab 3. Oct.4
+
+Duality (A closer look), homothetic function
+
+- [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 3.html)
+
+- Manuscript
+
+  

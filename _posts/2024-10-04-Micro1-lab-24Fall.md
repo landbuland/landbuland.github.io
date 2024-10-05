@@ -33,6 +33,6 @@ Duality (A closer look), homothetic function
 
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 3.html)
 
-- Manuscript
+- [Manuscript]({{site.baseurl}}/assets/microlab/Note Oct 4, 2024.pdf)
 
   

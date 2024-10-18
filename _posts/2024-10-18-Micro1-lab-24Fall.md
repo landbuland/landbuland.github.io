@@ -42,4 +42,4 @@ Revealed Preference, WARP
 
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 4.html)
 
-- Manuscript
+- [Manuscript]({{site.baseurl}}/assets/microlab/Note Oct 17, 2024.pdf)

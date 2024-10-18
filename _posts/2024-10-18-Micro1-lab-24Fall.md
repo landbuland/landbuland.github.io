@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Micro 1 lab 24 Fall"
-date:   2024-10-04 00:00:59
+date:   2024-10-18 00:00:59
 categories: Advanced_Micro
 ---
 
 # Micro 1 lab 24 Fall
 
-Recent update: 10/04/2024
+Recent update: 10/18/2024
 
 My office hour: W 2 - 3 PM and F 10 - 11 AM at Nelson 4119. 
 
@@ -36,3 +36,10 @@ Duality (A closer look), homothetic function
 - [Manuscript]({{site.baseurl}}/assets/microlab/Note Oct 4, 2024.pdf)
 
   
+### lab 4. Oct.18
+
+Revealed Preference, WARP 
+
+- [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 4.html)
+
+- Manuscript

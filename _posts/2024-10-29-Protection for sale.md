@@ -9,7 +9,7 @@ categories: Paper_Notebook
 
 Pinelopi Koujianou Goldberg, Giovanni Maggi (1999, AER)
 
-[My Slides](https://www.google.com)
+[My Slides]({{site.baseurl}}/assets/slides/Protection_for_sale__An_empirical_investigation.pdf)
 
 ## Abstract
 

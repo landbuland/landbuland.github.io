@@ -9,7 +9,7 @@ categories: Paper_Notebook
 
 By Artuc, Chaudhuri, and McLaren
 
-[My Slides on ACM (2010)]("www.google.com")
+[My Slides for ACM (2010)]({{site.baseurl}}/assets/slides/ACM slides_zzh.pdf)
 
 ### Research Question and motivation
 

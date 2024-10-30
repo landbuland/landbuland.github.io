@@ -9,6 +9,8 @@ categories: Paper_Notebook
 
 By Artuc, Chaudhuri, and McLaren
 
+[My Slides on ACM (2010)]("www.google.com")
+
 ### Research Question and motivation
 
 This paper addresses a classic question in trade and labor economics: the impact of trade liberalization and other trade shocks on worker welfare. Unlike most studies in the existing literature, which typically use static models and assume labor is either perfectly mobile or immobile, this paper takes a pioneering approach by employing a dynamic model of labor supply. This dynamic framework allows for an analysis of the costs, welfare effects, and labor market adjustments that unfold over time in response to a (hypothetical) trade shock, offering new insights into labor market dynamics under trade liberalization.

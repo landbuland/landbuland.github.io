@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Micro 1 lab 24 Fall"
-date:   2024-10-18 00:00:59
+date:   2024-11-08 00:00:59
 categories: Advanced_Micro
 ---
 
 # Micro 1 lab 24 Fall
 
-Recent update: 10/18/2024
+Recent update: 11/08/2024
 
 My office hour: W 2 - 3 PM and F 10 - 11 AM at Nelson 4119. 
 
@@ -43,3 +43,12 @@ Revealed Preference, WARP
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 4.html)
 
 - [Manuscript]({{site.baseurl}}/assets/microlab/Note Oct 17, 2024.pdf)
+
+
+### lab 5. Nov.8
+
+Producer theory, partial equilibrium
+
+- [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 5.html)
+
+- Manuscript

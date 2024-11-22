@@ -52,3 +52,12 @@ Producer theory, partial equilibrium
 - [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 5.html)
 
 - [Manuscript]({{site.baseurl}}/assets/microlab/Note Nov 8, 2024.pdf)
+
+
+### lab 6. Nov.22
+
+Impure Competition, price discrimination 
+
+- [Lecture notes]({{site.baseurl}}/assets/microlab/Microeconomics lab 6.html)
+
+- Manuscript

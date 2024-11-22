@@ -7,7 +7,7 @@ categories: Advanced_Micro
 
 # Micro 1 lab 24 Fall
 
-Recent update: 11/08/2024
+Recent update: 11/22/2024
 
 My office hour: W 2 - 3 PM and F 10 - 11 AM at Nelson 4119. 
 

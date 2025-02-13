@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Consumer Demand in a Nested CES Utility Framework"
+date:   2025-02-12 00:00:59
+categories: Advanced_Micro
+---
+# Consumer Demand in a Nested CES Utility Framework
 
 Consider a consumer who has a two-layer nested utility function, where the upper nest is a Cobb-Douglas form:
 

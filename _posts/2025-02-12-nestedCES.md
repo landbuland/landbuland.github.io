@@ -45,6 +45,7 @@ $$
 \text { s.t. } \sum p_v q_v=E_D
 \end{array}
 $$
+
 The first-order condition yields:
 
 $$
